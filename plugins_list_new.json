@@ -1,0 +1,1935 @@
+[
+    {
+        "type": "推荐",
+        "pathname": "miao-plugin",
+        "pluginname": "喵喵插件(miao-plugin)",
+        "url": "https://gitee.com/yoimiya-kokomi/miao-plugin",
+        "author": "@喵喵",
+        "describe": "Miao-Plugin是一个Yunzai-Bot的升级插件，提供包括角色面板查询等升级功能"
+    },
+    {
+        "type": "推荐",
+        "pathname": "Guoba-Plugin",
+        "pluginname": "锅巴插件(guoba-plugin)",
+        "url": "https://gitee.com/guoba-yunzai/guoba-plugin",
+        "author": "@zolay-poi",
+        "describe": "V3主要提供云崽的网页端后台管理界面功能；V2提供丝滑迁移V3功能。"
+    },
+    {
+        "type": "推荐",
+        "pathname": "Atlas",
+        "pluginname": "图鉴(Atlas)",
+        "url": "https://gitee.com/Nwflower/atlas",
+        "author": "@听语惊花",
+        "describe": "支持原神和崩坏：星穹铁道的新一代图鉴插件"
+    },
+    {
+        "type": "推荐",
+        "pathname": "xiaoyao-cvs-plugin",
+        "pluginname": "逍遥插件(xiaoyao-cvs-plugin)",
+        "url": "https://gitee.com/Ctrlcvs/xiaoyao-cvs-plugin",
+        "author": "@Ctrlcvs",
+        "describe": "用于辅助yunzai图库使用"
+    },
+    {
+        "type": "推荐",
+        "pathname": "liangshi-calc",
+        "pluginname": "梁氏插件(liangshi-calc)",
+        "url": "https://gitee.com/liangshi233/liangshi-calc",
+        "author": "@liangshi",
+        "describe": "miao-plugin的面板拓展插件"
+    },
+    {
+        "type": "推荐",
+        "pathname": "mora-plugin",
+        "pluginname": "摩拉插件(mora-plugin)",
+        "url": "https://gitee.com/Rrrrrrray/mora-plugin",
+        "author": "@Rrrrrrray",
+        "describe": "Mora-Plugin是一个Yunzai-Bot的插件，提供角色攻略等相关功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "howtocook",
+        "pluginname": "吃什么呢(howtocook)",
+        "url": "https://github.com/ikechan8370/howtocook",
+        "author": "@ikechan8370",
+        "describe": "* 吃什么呢 根据时间推荐早餐、午餐或晚餐 * 随机菜单+[类别] 随机推荐一道菜。"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "qiqi-plugin",
+        "pluginname": "七七插件(qiqi-plugin)",
+        "url": "https://gitee.com/gu-qii/qiqi-plugin",
+        "author": "@可乐不加冰",
+        "describe": "用于trss崩三信息查询"
+    },
+    {
+        "type": "JS",
+        "pathname": "原神背包查询",
+        "pluginname": "原神背包查询",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/%E5%8E%9F%E7%A5%9E%E8%83%8C%E5%8C%85%E6%9F%A5%E8%AF%A2.js",
+        "author": "@傅卿何",
+        "describe": "如题，字面意思，但不是全部物品"
+    },
+    {
+        "type": "JS",
+        "pathname": "插件安装器Pro",
+        "pluginname": "插件安装器Pro",
+        "url": "https://gitee.com/tu-zhengxiong0925/JiaoziJS/raw/main/JavaScript/plugin.js",
+        "author": "@Jiaozi",
+        "describe": "提供v3云崽js插件和plugin的便捷管理"
+    },
+    {
+        "type": "JS",
+        "pathname": "网页截屏",
+        "pluginname": "网页截屏",
+        "url": "https://gitee.com/tu-zhengxiong0925/JiaoziJS/raw/main/JavaScript/webPreview.js",
+        "author": "@Jiaozi",
+        "describe": "V3主要提供云崽获取网页链接截屏"
+    },
+    {
+        "type": "JS",
+        "pathname": "up",
+        "pluginname": "插件安装器更新",
+        "url": "https://gitee.com/tu-zhengxiong0925/JiaoziJS/raw/main/JavaScript/update.js",
+        "author": "@Jiaozi",
+        "describe": "V3主要提供云崽获取最新版本插件安装器"
+    },
+    {
+        "type": "JS",
+        "pathname": "喵语音合成",
+        "pluginname": "API在线语音合成",
+        "url": "https://gitee.com/tu-zhengxiong0925/JiaoziJS/raw/main/JavaScript/voice.js",
+        "author": "@喵",
+        "describe": "API在线合成语音"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "bujidao",
+        "pluginname": "米游社签到",
+        "url": "https://github.com/kissnavel/bujidaoRUN",
+        "author": "@kissnavel",
+        "describe": "V3主要提供云崽米游社福利签到"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "fufu-plugin",
+        "pluginname": "芙芙插件",
+        "url": "https://gitee.com/trubin/fufu-plugin",
+        "author": "@Trubin",
+        "describe": "新人上路，目前只适配喵崽，其他崽没测过"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "yenai-plugin",
+        "pluginname": "椰奶插件",
+        "url": "https://gitee.com/yeyang52/yenai-plugin",
+        "author": "@yeyang52",
+        "describe": "一个Yunzai-Bot的扩展插件，提供对Bot的一些便捷操作"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "GT-Manual",
+        "pluginname": "米游社手动验证",
+        "url": "https://gitee.com/haanxuan/GT-Manual",
+        "author": "@寒暄",
+        "describe": "米游社手动过验证码，提供签到，过码等功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "San-plugin",
+        "pluginname": "散落插件",
+        "url": "https://gitee.com/San-luo/San-plugin",
+        "author": "@San-luo",
+        "describe": "业余时间学习编写,随缘更新 摸鱼中~~~"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "micro-plugin",
+        "pluginname": "小微插件",
+        "url": "https://github.com/V2233/micro-plugin",
+        "author": "@Smallv",
+        "describe": "Yunzai开发管理面板，可在线生成简易插件、编辑图片、仿真QQ沙盒测试、数据库管理、文件管理、代码编辑、配置编辑、onebot连接、终端ssh连接等，详情见文档"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "help-plugin",
+        "pluginname": "DIY帮助插件",
+        "url": "https://gitee.com/tu-zhengxiong0925/help-plugin",
+        "author": "@饺子",
+        "describe": "提供美化帮助菜单，支持DIY，可一键同步喵喵帮助"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "ark-plugin",
+        "pluginname": "喵喵排名插件",
+        "url": "https://github.com/NotIvny/ark-plugin",
+        "author": "@NotIvny",
+        "describe": "为喵喵插件提供总排名与排名统计，不再局限于群排名的插件，兼容梁氏"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "yuki-plugin",
+        "pluginname": "优纪插件",
+        "url": "https://gitee.com/snowtafir/yuki-plugin",
+        "author": "@snowtafir",
+        "describe": "一个适用于 Yunzai (Miao/Trss/Next) 系列机器人框架 的B站动态和微博动态订阅推送插件"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "luoluo-plugin",
+        "pluginname": "落落插件",
+        "url": "https://gitee.com/yll0614/luoluo-plugin",
+        "author": "@叶落落",
+        "describe": "娱乐性插件 提供随机动漫图 哔哩哔哩视频解析 Ping等功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "Esca-Plugin",
+        "pluginname": "Esca插件",
+        "url": "https://gitee.com/escaped-spark/esca-plugin",
+        "author": "@逸燧",
+        "describe": "娱乐性插件，提供随机图/视频，备案查询，语音合成等功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "MEMZ-Plugin",
+        "pluginname": "MEMZ插件",
+        "url": "https://gitee.com/memzjs/memz-plugin",
+        "author": "@MEMZ",
+        "describe": "工具类插件,提供了一些便携的工具"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "better-rc",
+        "pluginname": "更好的远程命令插件",
+        "url": "https://gitee.com/Vremq_vperyod/better-rc",
+        "author": "@Vremq_vperyod",
+        "describe": "交互式远程命令执行与定时任务"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "Olympic-plugin",
+        "pluginname": "奥林匹克插件",
+        "url": "https://gitee.com/xiaomifan233/olympic-plugin",
+        "author": "@小米饭",
+        "describe": "提供有关巴黎奥运会的一些查询功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "DF-Plugin",
+        "pluginname": "DF插件",
+        "url": "https://github.com/DenFengLai/DF-Plugin",
+        "author": "@等风来",
+        "describe": "提供了用户联系主人、Git仓库更新推送到群聊、随机表情包戳一戳、随机图片、图片自动添加外显等功能，推荐使用锅巴插件进行配置"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "dg-play-plugin",
+        "pluginname": "郊狼控制插件",
+        "url": "https://gitee.com/adrae/dg-lab-play-plugin",
+        "author": "@Admilk",
+        "describe": "一种控制插件，正常人一般用不上"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "AIR-plugin",
+        "pluginname": "AIR插件",
+        "url": "https://github.com/lengxi-root/air-plugin",
+        "author": "@冷曦",
+        "describe": "主要适配官方机器人，提供伊蕾娜图片，智能体聊天，全局转ark等功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "miaoyu-plugin",
+        "pluginname": "喵宇插件",
+        "url": "https://gitee.com/kongkongjiang/miaoyu-plugin",
+        "author": "@小狐狸空空酱",
+        "describe": "提供云崽的b站抖音查询功能需要搭配Miaoyuapi本地版使用"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "egg-plugin",
+        "pluginname": "蛋蛋插件",
+        "url": "https://gitee.com/fantasy-hx/egg-plugin",
+        "author": "@Fantasy",
+        "describe": "一键换头插件(一键地球，一键@，一键...未来会支持更多快捷一键换头，方便制作表情包)"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "bililivePush-plugin",
+        "pluginname": "推送插件",
+        "url": "https://gitee.com/HDTianRu/bililivePush-plugin",
+        "author": "@天如",
+        "describe": "简洁易用的b站直播推送插件，代码结构简洁"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "xmz-plugin",
+        "pluginname": "小米粥插件",
+        "url": "https://gitee.com/cunyx/xmz-plugin",
+        "author": "@最好喝的小米粥",
+        "describe": "一个插件，连帮助都没有；点击查看功能列表"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "imgS-plugin",
+        "pluginname": "以图搜图插件",
+        "url": "https://github.com/erzaozi/imgS-plugin",
+        "author": "@二枣子",
+        "describe": "能以图搜插画、搜动漫角色、搜番剧、搜Coser、搜本子的聚合以图搜图插件"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "sunoai-plugin",
+        "pluginname": "SunoAI插件",
+        "url": "https://github.com/erzaozi/sunoai-plugin",
+        "author": "@二枣子",
+        "describe": "一个AI作曲插件，使用 SunoAI 接口，实现在QQ内使用 SunoAI V3 生成音乐"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "vits-plugin",
+        "pluginname": "在线语音合成插件",
+        "url": "https://github.com/erzaozi/vits-plugin",
+        "author": "@二枣子",
+        "describe": "在线VITS插件，免部署，使用网络上各种各样的在线接口"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "neko-status-plugin",
+        "pluginname": "猫猫状态插件",
+        "url": "https://github.com/erzaozi/neko-status-plugin",
+        "author": "@二枣子",
+        "describe": "可爱的服务器状态查看插件喵~"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "group-plugin",
+        "pluginname": "群管插件",
+        "url": "https://gitee.com/clarlotte/group-plugin",
+        "author": "@Clarlotte",
+        "describe": "群管插件，功能写的很杂，部分功能bug，请多多包涵"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "starlight-qsign",
+        "pluginname": "星点签名",
+        "url": "https://gitlab.com/v17360963/starlight-qsign",
+        "author": "@wuliya336",
+        "describe": "向机器发送信息可自动获取可用的免费签名"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "logier-plugin",
+        "pluginname": "鸢尾花插件",
+        "url": "https://gitee.com/logier/logier-plugins",
+        "author": "@logier",
+        "describe": "表情包仓库、运势算卦、AI塔罗牌、资讯推送"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "fanji-plugin",
+        "pluginname": "反击插件",
+        "url": "https://gitee.com/adrae/Fanji-plugin",
+        "author": "@Admilk",
+        "describe": "清凉图调用插件！以及一些机器人有关的操作，更多内容安装插件后发送#反击帮助"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "gpti-plugin",
+        "pluginname": "GPTI插件",
+        "url": "https://github.com/CikeyQi/gpti-plugin",
+        "author": "@0卡苏打水",
+        "describe": "一个GPT插件，简化了GPT模型的交互，无需令牌来访问GPT"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "mijia-plugin",
+        "pluginname": "米家插件",
+        "url": "https://github.com/CikeyQi/mijia-plugin",
+        "author": "@0卡苏打水",
+        "describe": "米家插件，在任何地方控制家中米家生态设备"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "nai-plugin",
+        "pluginname": "NovelAI绘图插件",
+        "url": "https://github.com/CikeyQi/nai-plugin",
+        "author": "@0卡苏打水",
+        "describe": "再一个AI绘图插件，使用 NovelAI 接口，实现在QQ内使用 nai-diffusion-3 生成图片"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "tg-plugin",
+        "pluginname": "沙雕插件",
+        "url": "https://gitee.com/misakime/tg-plugin.git",
+        "author": "@misakime",
+        "describe": "自动推送沙雕图和新番消息的插件"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "wind-plugin",
+        "pluginname": "风插件",
+        "url": "https://gitee.com/wind-trace-typ/wind-plugin",
+        "author": "@风の迹",
+        "describe": "各大平台热搜榜单，搜索菜谱等功能，还附带轻量的修炼小游戏(适合大群，不会因为游戏功能太多导致刷屏)，更多其他功能仍在咕咕咕"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "mz-plugin",
+        "pluginname": "名字插件",
+        "url": "https://gitee.com/xyb12345678qwe/mz-plugin-alemon",
+        "author": "@名字",
+        "describe": "一些丰富的小功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "Gi-plugin",
+        "pluginname": "互动插件",
+        "url": "https://gitee.com/qiannqq/gi-plugin",
+        "author": "@千奈千祁",
+        "describe": "Yunzai娱乐性扩展插件，包含漂流瓶、每日随机幸运值、模拟高考查分、群历史文献、钓鱼小游戏等娱乐功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "reset-qianyu-plugin",
+        "pluginname": "重置版千羽插件",
+        "url": "https://gitee.com/think-first-sxs/reset-qianyu-plugin",
+        "author": "@think-first-sxs",
+        "describe": "对千羽插件进行重置，优化功能，一个咕咕咕插件"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "biscuit-plugin",
+        "pluginname": "饼干插件",
+        "url": "https://github.com/Yummy-cookie/biscuit-plugin",
+        "author": "@Yummy-cookie",
+        "describe": "全新版本，yunzai的多功能插件"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "xrk-plugin",
+        "pluginname": "向日葵插件",
+        "url": "https://gitee.com/xrk114514/xrk-plugin",
+        "author": "@xrk",
+        "describe": "为机器人提供一些冒泡功能，如整点报时，全局表情(可以自定义图库)，还有一些小功能，建议搭配向日葵脚本一起使用"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "Xs-plugin",
+        "pluginname": "Xs-plugin",
+        "url": "https://gitee.com/hsxfk/Xs-plugin",
+        "author": "@黄色小方块",
+        "describe": "提供动漫语音合成，王者荣耀战力查询，公共签名api以及个人api检测功能。 还有一些简单的娱乐功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "nsfwjs-plugin",
+        "pluginname": "违规图片监听插件",
+        "url": "https://github.com/CikeyQi/nsfwjs-plugin",
+        "author": "@0卡苏打水",
+        "describe": "基于本地的免费违规图片监听插件，得益于NSFWJS，检测速度极快。使用TensorFlow，低配置服务器也能流畅运行"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "mj-plugin",
+        "pluginname": "Midjourney绘图插件",
+        "url": "https://github.com/ap-plugin/mj-plugin",
+        "author": "@0卡苏打水",
+        "describe": "又一个AI绘图插件，使用 Midjourney 接口，实现在QQ内使用Midjourney生成图片"
+    },
+    {
+        "type": "JS",
+        "pathname": "光遇国服身高查询",
+        "pluginname": "光遇国服身高查询",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/%5BSky%5D%E8%BA%AB%E9%AB%98%E6%9F%A5%E8%AF%A2%5B%E7%94%A8%E6%88%B7%E8%87%AA%E5%A1%ABKey%5D.js",
+        "author": "@Tloml-Starry",
+        "describe": "查询光遇角色身高数据等"
+    },
+    {
+        "type": "JS",
+        "pathname": "BOT续火&打卡&抽字符",
+        "pluginname": "BOT续火&打卡&抽字符",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/%5BTask%5D%E7%BE%A4%E6%89%93%E5%8D%A1&%E8%AF%97%E8%AF%8D%E7%BB%AD%E7%81%AB&%E6%8A%BD%E5%AD%97%E7%AC%A6%20V1.1.js",
+        "author": "@Tloml-Starry",
+        "describe": "自动续火打卡抽字符"
+    },
+    {
+        "type": "JS",
+        "pathname": "鸣潮卡池多久未复刻查询",
+        "pluginname": "鸣潮卡池多久未复刻查询",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/%E9%B8%A3%E6%BD%AE%E5%8D%A1%E6%B1%A0%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2V1.0.js",
+        "author": "@Tloml-Starry",
+        "describe": "查询五星限定角色距今多久未复刻等信息"
+    },
+    {
+        "type": "JS",
+        "pathname": "随机超能力",
+        "pluginname": "随机超能力",
+        "url": "https://github.com/xiaotian2333/yunzai-plugins-Single-file/main/%E9%9A%8F%E6%9C%BA%E8%B6%85%E8%83%BD%E5%8A%9B.js",
+        "author": "@小天",
+        "describe": "获取一个超能力及对应的副作用（仓库内还有其他更多插件）"
+    },
+    {
+        "type": "JS",
+        "pathname": "黑神话B站wiki查询",
+        "pluginname": "黑神话B站wiki查询",
+        "url": "https://gitee.com/wzwei1990/wukong/raw/master/wukong.js",
+        "author": "@wzwei1990",
+        "describe": "黑神话B站wiki查询，输入#影神图+要查询人物妖怪物品的名称，返回图片"
+    },
+    {
+        "type": "JS",
+        "pathname": "网页预览截图",
+        "pluginname": "网页预览截图",
+        "url": "https://gitee.com/tu-zhengxiong0925/JiaoziJS/raw/main/JavaScript/webPreview.js",
+        "author": "@饺子",
+        "describe": "自适应全屏网页截屏，可自定义屏蔽网址"
+    },
+    {
+        "type": "JS",
+        "pathname": "发癫插件单JS本地版",
+        "pluginname": "发癫插件单JS本地版",
+        "url": "https://gitee.com/NyaOH/fadian-plugin/raw/master/fadian-plugin.js",
+        "author": "@香草味的纳西妲",
+        "describe": "一个非常简洁的本地版发癫语录插件，内置几十条发癫语录"
+    },
+    {
+        "type": "JS",
+        "pathname": "智谱ai视频生成",
+        "pluginname": "智谱ai视频生成",
+        "url": "https://gitee.com/xyzqwefd/yz-js-cogvideox/raw/master/aivideo.js",
+        "author": "@xyz",
+        "describe": "基于智谱ai接口实现的简易文生视频/图生视频功能"
+    },
+    {
+        "type": "JS",
+        "pathname": "McMotd",
+        "pluginname": "McMotd",
+        "url": "https://gitee.com/Aliorpse/Yunzai-AliorpsePlugins/raw/master/mcplugins/McMotd.js",
+        "author": "@Aliorpse",
+        "describe": "JE/BE双版本查询Motd,支持群聊自定义默认,返回图片,[效果图](https://github.com/Aliorpse/personal_html_templates)"
+    },
+    {
+        "type": "JS",
+        "pathname": "osu!玩家信息查询",
+        "pluginname": "osu!玩家信息查询",
+        "url": "https://gitee.com/Aliorpse/Yunzai-AliorpsePlugins/raw/master/osu.js",
+        "author": "@Aliorpse",
+        "describe": "osu!玩家信息查询,pp模拟计算(功能不完善)"
+    },
+    {
+        "type": "JS",
+        "pathname": "B站视频,番剧解析",
+        "pluginname": "B站视频,番剧解析",
+        "url": "https://gitee.com/Aliorpse/Yunzai-AliorpsePlugins/raw/master/bilitv.js",
+        "author": "@Aliorpse",
+        "describe": "轻量，美观，快速的B站解析，支持链接，BV号，av号，b23.tv短链，ep号，ssid，md号"
+    },
+    {
+        "type": "JS",
+        "pathname": "发言统计",
+        "pluginname": "发言统计",
+        "url": "https://gitee.com/KaedeharaLu/yunzai-plugin-example/raw/master/发言统计.js",
+        "author": "@KaedeharaLu",
+        "describe": "统计群内发言排名修改版"
+    },
+    {
+        "type": "JS",
+        "pathname": "发言统计-TRSS",
+        "pluginname": "发言统计-TRSS",
+        "url": "https://gitee.com/KaedeharaLu/yunzai-plugin-example/raw/master/发言统计-TRSS.js",
+        "author": "@KaedeharaLu",
+        "describe": "统计群内发言排名修改版-TRSS版本"
+    },
+    {
+        "type": "JS",
+        "pathname": "反馈-TRSS",
+        "pluginname": "反馈-TRSS",
+        "url": "https://gitee.com/KaedeharaLu/yunzai-plugin-example/raw/master/反馈-TRSS.js",
+        "author": "@FichteHerbst",
+        "describe": "反馈问题，主人可以查看"
+    },
+    {
+        "type": "JS",
+        "pathname": "简单彩票-TRSS",
+        "pluginname": "简单彩票-TRSS",
+        "url": "https://gitee.com/KaedeharaLu/yunzai-plugin-example/raw/master/简单彩票-TRSS.js",
+        "author": "@KaedeharaLu",
+        "describe": "做成像买彩票一样的运气比拼插件。注：无任何金钱交易内容"
+    },
+    {
+        "type": "JS",
+        "pathname": "爱发电赞助者列表",
+        "pluginname": "爱发电赞助者列表",
+        "url": "https://gitee.com/Aliorpse/Yunzai-AliorpsePlugins/raw/master/AfdianSponsorList.js",
+        "author": "@Aliorpse",
+        "describe": "查看爱发电个人项目赞助者列表,展示金额,需要user_id与token"
+    },
+    {
+        "type": "JS",
+        "pathname": "群前缀",
+        "pluginname": "群前缀",
+        "url": "https://gitee.com/maple-leaf-sweeping/yunzai-js/raw/master/%E7%BE%A4%E5%89%8D%E7%BC%80.js",
+        "author": "@maple-leaf-sweeping",
+        "describe": "因为想用千羽的群前缀而又不想安装千羽插件("
+    },
+    {
+        "type": "JS",
+        "pathname": "导出面板数据",
+        "pluginname": "导出面板数据",
+        "url": "https://github.com/NotIvny/yunzai-panelData-js/main/panelData.js",
+        "author": "@NotIvny",
+        "describe": "将个人面板数据导入到另一个Bot上，省去了换Bot后在游戏内换展柜的麻烦"
+    },
+    {
+        "type": "JS",
+        "pathname": "Anosu",
+        "pluginname": "Anosu",
+        "url": "https://github.com/MIUKUKANO/yunzai-js/main/Anosu.js",
+        "author": "@MIUKUKANO",
+        "describe": "se！！！"
+    },
+    {
+        "type": "JS",
+        "pathname": "coc鱼情查询",
+        "pluginname": "coc鱼情查询",
+        "url": "https://gitee.com/lkah/yunzai-js/raw/master/coc%E9%B1%BC%E6%83%85.js",
+        "author": "@lkah",
+        "describe": "部落冲突鱼情查询"
+    },
+    {
+        "type": "JS",
+        "pathname": "消息处理插件",
+        "pluginname": "消息处理插件",
+        "url": "https://gitee.com/Aliorpse/Yunzai-AliorpsePlugins/raw/master/MsgProcess.js",
+        "author": "@Aliorpse",
+        "describe": "处理多段文本消息，使其合并成一段文本，防止一些渲染器出现问题(针对LiteLoaderQQNT)"
+    },
+    {
+        "type": "JS",
+        "pathname": "卡池信息查询",
+        "pluginname": "卡池信息查询",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/%E7%94%B5%E5%AD%90%E6%9C%A8%E9%B1%BC.js",
+        "author": "@Tloml-Starry",
+        "describe": "原神，星穹铁道和绝区零卡池信息and多久未复刻查询"
+    },
+    {
+        "type": "JS",
+        "pathname": "透群友",
+        "pluginname": "透群友",
+        "url": "https://gitee.com/lucky-shower/qun-fuck/raw/master/fuck.js",
+        "author": "@玉玉了",
+        "describe": "透群友/透群主/透管理"
+    },
+    {
+        "type": "JS",
+        "pathname": "二次元少女",
+        "pluginname": "二次元少女",
+        "url": "https://gitee.com/LostInLinearPast/Occasional-updates-js/raw/master/%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%91%E5%A5%B3.js",
+        "author": "@一只戏鸢",
+        "describe": "二次元的你/我/他/xxx，每次结果都不一样"
+    },
+    {
+        "type": "JS",
+        "pathname": "mc服务器状态",
+        "pluginname": "mc服务器状态",
+        "url": "https://github.com/xiaotian2333/yunzai-plugins-Single-file/main/mc%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8A%B6%E6%80%81.js",
+        "author": "@小天",
+        "describe": "查询mc服务器的状态，可配置默认查询的服务器（仓库内还有其他更多插件）"
+    },
+    {
+        "type": "JS",
+        "pathname": "ZhiPu AI",
+        "pluginname": "ZhiPu AI",
+        "url": "https://github.com/Dnyo666/Qxml-Yunzai-js",
+        "author": "@浅巷墨黎",
+        "describe": "与GLM4对话，拥有联网，预设功能（无记忆）"
+    },
+    {
+        "type": "JS",
+        "pathname": "MoonShot AI",
+        "pluginname": "MoonShot AI",
+        "url": "https://github.com/Dnyo666/Qxml-Yunzai-js",
+        "author": "@浅巷墨黎",
+        "describe": "与kimi ai对话，拥有记忆功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "xiaoyue-Plugin",
+        "pluginname": "小月插件",
+        "url": "https://gitee.com/bule-Tech/xiaoyue-plugin",
+        "author": "@bule-Tech",
+        "describe": "由云溪院提供的最后一版小月插件，有戳一戳，抖音，blbl解析，插件及插件包安装等功能，现已无法更新"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "Useless-Plugin",
+        "pluginname": "无用插件",
+        "url": "https://gitee.com/SmallK111407/useless-plugin",
+        "author": "@曉K",
+        "describe": "提供通过云崽随机发送云崽圈子一些人不寻常、逆天、乐子、搞笑、有趣等等的发言的功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "TianRu-plugin",
+        "pluginname": "天如插件",
+        "url": "https://gitee.com/HDTianRu/TianRu-plugin",
+        "author": "@天如",
+        "describe": "获取\"提瓦特小助手\"抽卡记录，执行各种语言代码，模拟指定QQ执行指令，生成二维码，将数字变成114514组合的恶臭数字....等各种小功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "panel-plugin",
+        "pluginname": "面板插件",
+        "url": "https://gitee.com/yunzai-panel/README",
+        "author": "@硫酸钡Barite",
+        "describe": "对喵喵插件的面板数据提供操作：转换旧版圣遗物格式、适配Gspanel、备份面板"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "ql-plugin",
+        "pluginname": "清凉插件",
+        "url": "https://gitee.com/xwy231321/ql-plugin",
+        "author": "@xwy",
+        "describe": "随机二三次元图片，含限制级，清凉图插件重构版"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "kkp-plugin",
+        "pluginname": "KKP插件",
+        "url": "https://gitee.com/dungeonmaster/kkp-plugin",
+        "author": "@所有二刺螈都得死",
+        "describe": "看看P站图和23次元蛇图和其他小功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "Cloud_Icepray",
+        "pluginname": "云•冰祈",
+        "url": "https://gitee.com/koinori/Icepray",
+        "author": "@koinori",
+        "describe": "搭建于云端，集娱乐于管理功能于一身的轻量化插件"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "Avocado-Plugin",
+        "pluginname": "鳄梨插件",
+        "url": "https://github.com/Qz-Sean/avocado-plugin",
+        "author": "@Qz-Sean",
+        "describe": "支持查询热映电影信息、天气查询、md渲染、灵活的网页预览与翻译、只为一个人疯狂(发癫)、抽象的指令规则"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "cunyx-plugin",
+        "pluginname": "寸幼萱插件",
+        "url": "https://gitee.com/cunyx/cunyx-plugin",
+        "author": "@最好喝的小米粥",
+        "describe": "改版完成，欢迎安装(安装前请阅读README.md获得最佳体验)"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "ws-plugin",
+        "pluginname": "ws插件",
+        "url": "https://gitee.com/xiaoye12123/ws-plugin",
+        "author": "@小叶",
+        "describe": "提供了云崽通过ws连接onebot标准的机器人"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "wenan-plugin",
+        "pluginname": "文案插件",
+        "url": "https://gitee.com/white-night-fox/wenan-plugin",
+        "author": "@白夜狐狸",
+        "describe": "提供了云崽回复类文案"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "impart-pro-plugin",
+        "pluginname": "牛牛大作战Beta",
+        "url": "https://gitee.com/sumght/impart-pro-plugin",
+        "author": "@sumght",
+        "describe": "牛牛大作战先行测试，男人之间细说的互动玩法(原impart插件)"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "armoe-plugin",
+        "pluginname": "阿尔萌插件",
+        "url": "https://gitee.com/armoe-project/armoe-plugin",
+        "author": "@真心",
+        "describe": "提供R6战绩查询、KOOK在线查询等功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "StarRail-plugin",
+        "pluginname": "星铁插件",
+        "url": "https://gitee.com/hewang1an/StarRail-plugin",
+        "author": "@鹤望兰",
+        "describe": "一个提供了崩坏星穹铁道部分查询功能的插件，如#星铁卡片 #星铁体力 #星铁收入 等"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "Y-Tian-Plugin",
+        "pluginname": "阴天插件",
+        "url": "https://gitee.com/wan13877501248/y-tian-plugin",
+        "author": "@Hello World",
+        "describe": "一个Yunzai-Bot V3小功能集成的插件包，集AI、娱乐、功能性于一体，让你的机器人变得更为全面且多功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "chatztc",
+        "pluginname": "ChatGLM的api插件",
+        "url": "https://gitee.com/394911284/chatztc",
+        "author": "@蓝蓝的青金石",
+        "describe": "这是一个对接ChatGLM的聊天api的云崽bot插件"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "FanSky_Qs",
+        "pluginname": "AFanSKyQs插件",
+        "url": "https://github.com/AFanSKyQs/FanSky_Qs",
+        "author": "@AFanSKyQs",
+        "describe": "提瓦特小助手功能实现(队伍伤害等)、[打卡×魔晶系统]、OpenAI多模型拓展、票房查询、各图包整合收录触发等..."
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "XiaoXuePlugin",
+        "pluginname": "小雪插件",
+        "url": "https://gitee.com/XueWerY/XiaoXuePlugin",
+        "author": "@XueWerY",
+        "describe": "让bot变得人性化，提升用户和bot的交互体验，提供bot更多的管理，提供更多的依赖库，拓展新功能效率高"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "rconsole-plugin",
+        "pluginname": "R插件",
+        "url": "https://gitee.com/kyrzy0416/rconsole-plugin",
+        "author": "@zhiyu",
+        "describe": "专门为朋友们写的Yunzai-Bot插件，专注图片分享和生活的插件！"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "WeLM-plugin",
+        "pluginname": "WeLM对话插件",
+        "url": "https://github.com/JD1433223/WeLM-plugin",
+        "author": "@JD",
+        "describe": "提供个性ai问答、提问和续写(chatgpt下下下位替代)功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "hs-qiqi-Plugin",
+        "pluginname": "枫叶插件",
+        "url": "https://plugin.kesally.ren/",
+        "author": "@Kesally",
+        "describe": "提供多个AI对话，名片自动绑定uid，坤图，睡眠时间等有趣且实用的娱乐小功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "ap-plugin",
+        "pluginname": "Stable Diffusion绘图插件",
+        "url": "https://github.com/ap-plugin/ap-plugin",
+        "author": "@渔火Arcadia",
+        "describe": "一个AI绘图插件，使用 Stable Diffusion 接口，实现在QQ内使用 Stable Diffusion 生成图片"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "xiaoye-plugin",
+        "pluginname": "小叶插件",
+        "url": "https://gitee.com/xiaoye12123/xiaoye-plugin",
+        "author": "@小叶",
+        "describe": "模拟刷圣遗物和强化，可自定义概率"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "auto-plugin",
+        "pluginname": "自动化插件",
+        "url": "https://github.com/Nwflower/auto-plugin",
+        "author": "@听语惊花",
+        "describe": "原神倒计时、自动发说说...可能是史上最强大的群名片更新插件。另外还提供了一些自动化小功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "chagpt-plugin",
+        "pluginname": "ChаtGPT问答插件",
+        "url": "https://github.com/ikechan8370/chatgpt-plugin",
+        "author": "@ikechan8370",
+        "describe": "ChаtGPT问答插件"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "liulian-plugin",
+        "pluginname": "榴莲插件",
+        "url": "https://gitee.com/huifeidemangguomao/liulian-plugin",
+        "author": "@会飞的芒果猫",
+        "describe": "提供原神地下地图、B站推送、插件管理等一些拓展功能及原神/星铁猜角色、娶群友、随机表情、星座运势、话痨统计、天气、多群广播消息等群聊功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "zhishui-plugin",
+        "pluginname": "止水插件",
+        "url": "https://gitee.com/fjcq/zhishui-plugin",
+        "author": "@止水",
+        "describe": "搜剧插件"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "Recreation-plugin",
+        "pluginname": "娱乐插件",
+        "url": "https://github.com/QiuLing0/recreation-plugin",
+        "author": "@QiuLing0",
+        "describe": "基于YunzaiV3.0版本衍生娱乐插件，插件将不断集成娱乐工具"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "py-plugin",
+        "pluginname": "Python插件",
+        "url": "https://gitee.com/realhuhu/py-plugin",
+        "author": "@realhuhu",
+        "describe": "主要提供nonebot2机器人服务"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "vits_yunzai_plugin",
+        "pluginname": "AI语音本地生成",
+        "url": "https://gitee.com/sumght/vits_yunzai_plugin",
+        "author": "@sumght-z",
+        "describe": "基于vits本地生成原神/崩三语音 生成效果演示"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "TRSS-Plugin",
+        "pluginname": "TRSS 插件",
+        "url": "https://gitee.com/TimeRainStarSky/TRSS-Plugin",
+        "author": "@时雨🌌星空",
+        "describe": "图片修复、图片背景去除、原神语音合成、系统信息、二维码生成、米哈游登录、Markdown、代码高亮、远程命令、文件操作、云盘操作"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "windoge-plugin",
+        "pluginname": "windoge-plugin",
+        "url": "https://github.com/gxy12345/windoge-plugin",
+        "author": "@gxy12345",
+        "describe": "提供一些国际服便捷功能，以及继续维护参考面板数据"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "xiaofei-plugin",
+        "pluginname": "小飞插件",
+        "url": "https://gitee.com/xfdown/xiaofei-plugin",
+        "author": "@小飞",
+        "describe": "多选点歌、天气查询、原神注册时间查询"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "l-plugin",
+        "pluginname": "l-plugin",
+        "url": "https://github.com/liuly0322/l-plugin",
+        "author": "@liuly0322",
+        "describe": "塔罗牌，抽签，骰子，今天吃什么，tex图片等"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "earth-k-plugin",
+        "pluginname": "土块插件",
+        "url": "https://gitee.com/SmallK111407/earth-k-plugin",
+        "author": "@地球生物",
+        "describe": "提供了猜语音、打我、练习记忆力小游戏，获取游戏内过场动画及角色PV，AI画图，卜卦，图片可视化点歌/视频/小说/漫画，原史（原神角色/圣遗物/武器/NPC等背景故事等）等功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "lin-plugin",
+        "pluginname": "麟插件",
+        "url": "https://gitee.com/go-farther-and-farther/lin-plugin",
+        "author": "@越追越远",
+        "describe": "ai接口以及配置了相关设置的功能，全局点赞、复读打断等智能化工具，发送日志文件，一些查询功能等工具"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "suiyue",
+        "pluginname": "碎月插件",
+        "url": "https://gitee.com/Acceleratorsky/suiyue",
+        "author": "@碎月",
+        "describe": "此插件已跑路，戳我前往喵崽维护版疫情，清晰度提升，搜番，搜磁力，疯狂星期四，计算器"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "xianxin-plugin",
+        "pluginname": "闲心插件",
+        "url": "https://gitee.com/xianxincoder/xianxin-plugin",
+        "author": "@闲心",
+        "describe": "是一个集米游社cos、米游社wiki攻略、B站up动态推送(支持长图模式)、神秘指令、群战小游戏、五子棋、21点等功能的插件 喵崽版点我"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "trss-xianxin-plugin",
+        "pluginname": "闲心插件trss分支",
+        "url": "https://gitee.com/snowtafir/xianxin-plugin",
+        "author": "@闲心",
+        "describe": "B站推送、微博推送、米游社(原神/星穹铁道：cos、wiki、攻略)、神秘指令、群战小游戏、五子棋、21点等 功能的拓展插件。基于 xianxin-plugin 维护的trss分支。当前适配 TRSS-Yunzai、Miao-Yunzai。部分功能不可用。即将停止维护"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "zhi-plugin",
+        "pluginname": "白纸插件",
+        "url": "https://github.com/HeadmasterTan/zhi-plugin",
+        "author": "@HeadmasterTan",
+        "describe": "提供B站动态推送。优化云崽的“添加”功能，可在同一触发词下添加多个回复"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "achievements-plugin",
+        "pluginname": "成就插件",
+        "url": "https://gitee.com/zolay-poi/achievements-plugin",
+        "author": "@zolay-poi",
+        "describe": "提供成就查漏、成就搜索等功能"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "flower-plugin",
+        "pluginname": "抽卡插件",
+        "url": "https://github.com/Nwflower/flower-plugin",
+        "author": "@听语惊花",
+        "describe": "百连、单抽、文字狱、转生、隐形拉黑等"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "Depot-js-plugin",
+        "pluginname": "扩展插件",
+        "url": "https://gitee.com/lycofuture/Depot-js-plugin",
+        "author": "@Lycofuture",
+        "describe": "随心api，GTP-API，网页预览，woc 指令，风控处理 ，广播，QQ 凶吉查询"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "yjwj-plugin",
+        "pluginname": "永劫无间插件",
+        "url": "https://gitee.com/njmxye/yjwj-plugin",
+        "author": "@楠寻",
+        "describe": "游戏永劫无间查询功能插件，支持查询永劫无间官方影画廊海报与实机截图、查询端游表情包、获取每日60秒新闻早报等功能。大神战绩查询、永劫无间世界观查询、群聊小游戏、Galgame接入kimi对话等功能正在火热开发中"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "cb-plugin",
+        "pluginname": "尘白禁区插件",
+        "url": "https://github.com/Sakura1618/cb-plugin",
+        "author": "@Sakura1618",
+        "describe": "游戏尘白禁区查询功能插件，支持查询角色攻略、养成材料、强度榜等功能"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "eso-plugin",
+        "pluginname": "上古卷轴OL插件",
+        "url": "https://github.com/ChicorSun/eso",
+        "author": "@Chicor和人",
+        "describe": "游戏上古卷轴OL查询功能插件，支持查询服务器状态、维护公告、装备图鉴、每日日常无畏副本等功能"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "sv-plugin",
+        "pluginname": "星露谷插件",
+        "url": "https://gitee.com/xingdonglcy/sv-plugin",
+        "author": "@LCY星动",
+        "describe": "简单查询星露谷村民、物品等功能的插件"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "Elysian-Realm-plugin",
+        "pluginname": "崩坏三乐土插件",
+        "url": "https://github.com/zipated/Elysian-Realm-plugin",
+        "author": "@zipated",
+        "describe": "崩坏3乐土攻略查询插件"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "ZZZ-Plugin",
+        "pluginname": "绝区零插件",
+        "url": "https://github.com/ZZZure/ZZZ-Plugin",
+        "author": "@bietiaop",
+        "describe": "游戏绝区零查询功能插件，支持玩家信息、角色信息查询，抽卡记录、刷新、分析等功能"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "waves-plugin",
+        "pluginname": "鸣潮插件",
+        "url": "https://github.com/erzaozi/waves-plugin",
+        "author": "@二枣子",
+        "describe": "支持查询游戏内数据，推送波片信息以及库街区自动签到的鸣潮插件"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "arknights-plugin",
+        "pluginname": "明日方舟插件",
+        "url": "https://github.com/gxy12345/arknights-plugin",
+        "author": "@gxy12345",
+        "describe": "提供明日方舟森空岛社区自动签到、干员练度查询、公招查询、MAA远程控制终端"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "skland-plugin",
+        "pluginname": "�日方舟插件",
+        "url": "https://github.com/erzaozi/skland-plugin",
+        "author": "@二枣子",
+        "describe": "通过森空岛查询游戏信息，推送理智以及社区自动签到的明日方舟插件"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "1999-plugin",
+        "pluginname": "1999-plugin",
+        "url": "https://gitee.com/fantasy-hx/1999-plugin",
+        "author": "@Fantasy",
+        "describe": "重返未来1999相关插件（图鉴，分析，娱乐）"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "mc-plugin",
+        "pluginname": "Minecraft插件",
+        "url": "https://github.com/CikeyQi/mc-plugin",
+        "author": "@0卡苏打水",
+        "describe": "基于Yunzai-Bot的与Minecraft Server互通消息的插件，支持双向同步消息与指令操作"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "SpaceXiao_Minecraft",
+        "pluginname": "我的世界插件",
+        "url": "https://gitee.com/xiaofei20625/space-xiao_minecraft",
+        "author": "@晓飞",
+        "describe": "可以配合minecraft的servertap插件在qq群/qq频道控制mc进行添加白名单，输入指令等操作"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "BlueArchive-plugin",
+        "pluginname": "碧蓝档案插件",
+        "url": "https://gitee.com/all-thoughts-are-broken/blue-archive",
+        "author": "@万念断绝",
+        "describe": "提供碧蓝档案的一些有用的或没有用的攻略帮助"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "Yunzai-Kuro-Plugin",
+        "pluginname": "库洛插件",
+        "url": "https://github.com/TomyJan/Yunzai-Kuro-Plugin",
+        "author": "@TomyJan",
+        "describe": "库洛游戏插件"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "PhigrosLibrary-plugin",
+        "pluginname": "Phigros查分插件",
+        "url": "https://github.com/Walkersifolia/PhigrosLibrary-plugin",
+        "author": "@圈圈",
+        "describe": "无需手动输入，获取SessionToken并绑定就可以从云端服务器查分，自动生成b19图片，精美的UI设计by[@七星]，插件内也给出了获取SessionToken的方式"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "call_of_seven_saints",
+        "pluginname": "七圣召唤战绩查询",
+        "url": "https://gitee.com/huangshx2001/call_of_seven_saints",
+        "author": "@癫癫博士",
+        "describe": "查询自己七圣召唤胜率以及卡牌喜好，目标用户应该是七圣召唤忠实玩家以及牌佬群机器人"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "phi-plugin",
+        "pluginname": "屁股肉插件",
+        "url": "https://github.com/catrong/phi-plugin",
+        "author": "@Catrong",
+        "describe": "提供Phigros现有曲目的曲目信息查询、个人rks计算、云端查分、随机phigros曲目等功能"
+    },
+    {
+        "type": "游戏插件",
+        "pathname": "Tlon-Sky",
+        "pluginname": "光遇插件",
+        "url": "https://gitee.com/Tloml-Starry/Tlon-Sky",
+        "author": "@Tloml-Starry",
+        "describe": "可查询每日任务等，详情看功能wiki"
+    },
+    {
+        "type": "文游插件",
+        "pathname": "Slave-Market",
+        "pluginname": "群友市场",
+        "url": "https://gitee.com/Tloml-Starry/Slave-Market",
+        "author": "@Tloml-Starry",
+        "describe": "群友之间的增温小游戏，购买群友来替你打工，然后买下更多群友（doge"
+    },
+    {
+        "type": "文游插件",
+        "pathname": "Bread-Shop",
+        "pluginname": "面包商店",
+        "url": "https://gitee.com/Tloml-Starry/Bread-Shop",
+        "author": "@Tloml-Starry",
+        "describe": "由nonebot-plugin-bread-shop修改制作的Yunzai特供版本，面包小游戏，用户可以通过“买”，“吃”，“抢”，“送”，”猜拳“操作来获取面包和使用面包。一起来买面包吧！本插件不适宜用于群人员较多的群，经过测试，本功能具有极大上瘾性(比如修仙)，容易造成bot刷屏，影响正常聊天！建议建立专门的Bot游戏游玩群"
+    },
+    {
+        "type": "文游插件",
+        "pathname": "Farming-Simulator",
+        "pluginname": "种田模拟器",
+        "url": "https://gitee.com/Tloml-Starry/Farming-Simulator",
+        "author": "@Tloml-Starry",
+        "describe": "俺是农村来滴，嫩城里人不会欺负农村人吧"
+    },
+    {
+        "type": "文游插件",
+        "pathname": "Shiranai-Plugin",
+        "pluginname": "希腊奶",
+        "url": "https://github.com/XasYer/Shiranai-Plugin",
+        "author": "@小叶",
+        "describe": "提供几个小游戏"
+    },
+    {
+        "type": "文游插件",
+        "pathname": "Cookie-plugin",
+        "pluginname": "曲奇点点乐",
+        "url": "https://gitee.com/Tloml-Starry/Cookie-plugin",
+        "author": "@Tloml-Starry",
+        "describe": "灵感来源Steam游戏Cookie Clicker功能正在逐步完善"
+    },
+    {
+        "type": "文游插件",
+        "pathname": "Tkdream-1.2",
+        "pluginname": "征途插件",
+        "url": "https://gitee.com/AAmiaom/Tkdream-1.2",
+        "author": "@喵",
+        "describe": "三国类文字游戏"
+    },
+    {
+        "type": "文游插件",
+        "pathname": "Tsai-Plugin",
+        "pluginname": "文游",
+        "url": "https://gitee.com/TsaiXingyu/Tsai-Plugin",
+        "author": "@古手梨花",
+        "describe": "目前测试，有不少bug"
+    },
+    {
+        "type": "文游插件",
+        "pathname": "wuzhe-plugin",
+        "pluginname": "武者文游",
+        "url": "https://wz.mzswebs.top/",
+        "author": "@名字",
+        "describe": "武者文游~，目前功能较少"
+    },
+    {
+        "type": "文游插件",
+        "pathname": "impart_cunyx-plugin",
+        "pluginname": "寸幼萱银帕",
+        "url": "https://gitee.com/cunyx/impart_cunyx-plugin",
+        "author": "@最好喝的小米粥",
+        "describe": "由寸幼萱插件银帕功能单独分离重置的新版银帕插件，云崽圈内自定义性最强的银帕插件。完全免费，功能全部在本地进行(更新相关功能除外)，完全开源，日志详细"
+    },
+    {
+        "type": "文游插件",
+        "pathname": "xiuxian@1.3.0",
+        "pluginname": "绝云间修仙V1.3.0「龙腾虎跃庆周年」",
+        "url": "https://gitee.com/hutao222/DDZS-XIUXIAN-V1.3.0",
+        "author": "@DD斩首",
+        "describe": "周年庆活动限时开启"
+    },
+    {
+        "type": "文游插件",
+        "pathname": "sanguo-plugin",
+        "pluginname": "三国文游",
+        "url": "https://wz.mzswebs.top/",
+        "author": "@名字",
+        "describe": "三国类的游戏插件"
+    },
+    {
+        "type": "文游插件",
+        "pathname": "akasha-terminal-plugin",
+        "pluginname": "虚空插件",
+        "url": "https://gitee.com/go-farther-and-farther/akasha-terminal-plugin",
+        "author": "@越追越远",
+        "describe": "提供企鹅群游戏，目前实现了群内决斗，娶群友等有趣的小游戏"
+    },
+    {
+        "type": "文游插件",
+        "pathname": "xianyu-plugin",
+        "pluginname": "咸鱼插件",
+        "url": "https://gitee.com/suancaixianyu/xianyu-plugin",
+        "author": "@酸菜咸鱼",
+        "describe": "一些群聊对战小游戏，没有文游的复杂体系，休闲娱乐，老少皆宜"
+    },
+    {
+        "type": "JS",
+        "pathname": "mc服务器列表V2.1",
+        "repository": "https://github.com/Dnyo666/Qxml-Yunzai-js",
+        "author": "@浅巷墨黎",
+        "url": "https://github.com/Dnyo666/Qxml-Yunzai-js",
+        "describe": "添加并列出mc服务器状态"
+    },
+    {
+        "type": "JS",
+        "pathname": "电子木鱼",
+        "repository": "https://gitee.com/Tloml-Starry/Plugin-Example",
+        "author": "@Tloml-Starry",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/%E7%94%B5%E5%AD%90%E6%9C%A8%E9%B1%BC.js",
+        "describe": "敲电子木鱼，成赛博圣人"
+    },
+    {
+        "type": "JS",
+        "pathname": "gpt4o",
+        "repository": "https://gitee.com/LostInLinearPast/Occasional-updates-js",
+        "author": "@一只戏鸢",
+        "url": "https://gitee.com/LostInLinearPast/Occasional-updates-js/raw/master/gpt4.js",
+        "describe": "提供免费的gpt4o模型，且用且珍惜，坏了不一定修"
+    },
+    {
+        "type": "JS",
+        "pathname": "redis便捷操作",
+        "repository": "https://github.com/NotIvny/yunzai-operateRedis-js",
+        "author": "@NotIvny",
+        "url": "https://github.com/NotIvny/yunzai-operateRedis-js",
+        "describe": "便捷增删改redis数据库"
+    },
+    {
+        "type": "JS",
+        "pathname": "节日查询",
+        "repository": "https://gitee.com/Tloml-Starry/Plugin-Example",
+        "author": "@Tloml-Starry",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/%E6%9C%80%E8%BF%91%E8%8A%82%E6%97%A5%E6%9F%A5%E8%AF%A2.js",
+        "describe": "查询距离当前日期最近的三个节日(可自定义数量)，可设置gid和uid在节日当天推送"
+    },
+    {
+        "type": "JS",
+        "pathname": "沙雕图",
+        "repository": "https://gitee.com/bling_yshs/yunzaiv3-ys-plugin#%E6%B2%99%E9%9B%95%E5%9B%BE%E6%8F%92%E4%BB%B6",
+        "author": "@bling丶一闪",
+        "url": "https://gitee.com/bling_yshs/yunzaiv3-ys-plugin/raw/master/ys-%E6%B2%99%E9%9B%95%E5%9B%BE-reborn.js",
+        "describe": "发送一张随机沙雕图（图库请看代码内注释）"
+    },
+    {
+        "type": "JS",
+        "pathname": "今日人品",
+        "repository": "https://gitee.com/bling_yshs/yunzaiv3-ys-plugin#%E4%BB%8A%E6%97%A5%E4%BA%BA%E5%93%81",
+        "author": "@bling丶一闪",
+        "url": "https://gitee.com/bling_yshs/yunzaiv3-ys-plugin/raw/master/ys-%E4%BB%8A%E6%97%A5%E4%BA%BA%E5%93%81.js",
+        "describe": "计算今日人品（根据时间和QQ号等概率哈希，所以结果仅供参考）"
+    },
+    {
+        "type": "JS",
+        "pathname": "米游社cos",
+        "repository": "https://gitee.com/bling_yshs/yunzaiv3-ys-plugin#%E7%B1%B3%E6%B8%B8%E7%A4%BEcos",
+        "author": "@bling丶一闪",
+        "url": "https://gitee.com/bling_yshs/yunzaiv3-ys-plugin/raw/master/ys-%E7%B1%B3%E6%B8%B8%E7%A4%BEcos.js",
+        "describe": "发送随机米游社cos图片"
+    },
+    {
+        "type": "JS",
+        "pathname": "点赞续火",
+        "repository": "https://github.com/xiaotian2333/yunzai-plugins-Single-file?tab=readme-ov-file#%E7%82%B9%E8%B5%9E%E7%BB%AD%E7%81%AB",
+        "author": "@小天",
+        "url": "https://github.com/xiaotian2333/yunzai-plugins-Single-file/raw/main/%E7%82%B9%E8%B5%9E%E7%BB%AD%E7%81%AB.js",
+        "describe": "自动化点赞和续火，免去每天发“赞我”的麻烦（仓库内还有其他更多插件）"
+    },
+    {
+        "type": "JS",
+        "pathname": "好游快爆爆米花签到",
+        "repository": "https://gitee.com/eulogyjiajia/js-feature-collection",
+        "author": "@空梦",
+        "url": "https://gitee.com/eulogyjiajia/js-feature-collection/raw/master/hykb/hykb.js",
+        "describe": "可在群聊内签到好游快爆的爆米花"
+    },
+    {
+        "type": "JS",
+        "pathname": "原神活动临期推送",
+        "repository": "https://gitee.com/qiannqq/yunzai-plugin-JS#%E5%8E%9F%E7%A5%9E%E6%B4%BB%E5%8A%A8%E5%88%B0%E6%9C%9F%E6%8E%A8%E9%80%81js",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/JS/hdts.js",
+        "describe": "在指定群推送即将到期关闭的原神活动"
+    },
+    {
+        "type": "JS",
+        "pathname": "标准输入",
+        "repository": "https://gitee.com/qiannqq/yunzai-plugin-JS#%E6%A0%87%E5%87%86%E8%BE%93%E5%85%A5js",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/JS/stdin.js",
+        "describe": "使Miao-Yunzai支持控制台输入指令"
+    },
+    {
+        "type": "JS",
+        "pathname": "陈泽丨丁真丨孙笑川语音合成",
+        "repository": "https://gitee.com/Tloml-Starry/Plugin-Example",
+        "author": "@Tloml-Starry",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/%5B%E9%99%88%E6%B3%BD%5D%5B%E4%B8%81%E7%9C%9F%5D%5B%E5%AD%99%E7%AC%91%E5%B7%9D%5D%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90.js",
+        "describe": "合成陈泽丨丁真丨孙笑川语音并发送"
+    },
+    {
+        "type": "JS",
+        "pathname": "通义千问",
+        "repository": "https://gitee.com/qiannqq/yunzai-plugin-JS#%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AEjs",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/JS/tyqw.js",
+        "describe": "对接通义千问API的JS轻量插件，支持上下文、自设定，指定模型等。需要自备sk"
+    },
+    {
+        "type": "JS",
+        "pathname": "星铁角色素材",
+        "repository": "https://gitee.com/HanaHimeUnica/yzjs#%E6%98%9F%E9%93%81%E8%A7%92%E8%89%B2%E7%B4%A0%E6%9D%90js",
+        "author": "@小花花花儿",
+        "url": "https://gitee.com/HanaHimeUnica/yzjs/raw/master/%E6%98%9F%E9%93%81%E8%A7%92%E8%89%B2%E7%B4%A0%E6%9D%90.js",
+        "describe": "星铁角色素材"
+    },
+    {
+        "type": "JS",
+        "pathname": "签名状态检测",
+        "repository": "https://github.com/xiaotian2333/yunzai-plugins-Single-file",
+        "author": "@小天",
+        "url": "https://github.com/xiaotian2333/yunzai-plugins-Single-file/raw/main/%E7%AD%BE%E5%90%8D%E7%8A%B6%E6%80%81%E6%A3%80%E6%B5%8B.js",
+        "describe": "检测各签名服务的可用性，可修改插件内的配置自定义要检测的签名接口（仓库内还有其他更多插件）"
+    },
+    {
+        "type": "JS",
+        "pathname": "删除抽卡记录",
+        "repository": "https://gitee.com/HanaHimeUnica/yzjs#%E5%88%A0%E9%99%A4%E6%8A%BD%E5%8D%A1%E8%AE%B0%E5%BD%95js",
+        "author": "@小花花花儿",
+        "url": "https://gitee.com/HanaHimeUnica/yzjs/raw/master/%E5%88%A0%E9%99%A4%E6%8A%BD%E5%8D%A1%E8%AE%B0%E5%BD%95.js",
+        "describe": "此功能仅限原神抽卡记录错乱或本地抽卡记录小于一年的玩家使用使用此功能后再使用【#更新抽卡记录】可更新一年内抽卡记录"
+    },
+    {
+        "type": "JS",
+        "pathname": "随机滑稽",
+        "repository": "https://gitee.com/Tloml-Starry/Plugin-Example",
+        "author": "@Tloml-Starry",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/%E9%9A%8F%E6%9C%BA%E6%BB%91%E7%A8%BD.js",
+        "describe": "随机滑稽表情包[滑稽库](https://gitee.com/Tloml-Starry/resources)"
+    },
+    {
+        "type": "JS",
+        "pathname": "漂流瓶",
+        "repository": "https://gitee.com/SmallK111407/onlyJS",
+        "author": "@曉K",
+        "url": "https://gitee.com/SmallK111407/onlyJS/raw/main/driftBottle/driftBottle.js",
+        "describe": "本地漂流瓶，适配QQBot按钮，可以捡到来自别的群的漂流瓶，配置文件都在插件内，请自行修改哦~"
+    },
+    {
+        "type": "JS",
+        "pathname": "文件复制",
+        "repository": "https://github.com/NotIvny/yunzai-copyfiles-js/",
+        "author": "@NotIvny",
+        "url": "https://github.com/NotIvny/yunzai-copyfiles-js/main/copyfiles.js",
+        "describe": "便捷替换文件，可用于文件备份或恢复"
+    },
+    {
+        "type": "JS",
+        "pathname": "主人被禁言解禁",
+        "repository": "https://gitee.com/adrae/js-plugins/tree/master/%E4%B8%BB%E4%BA%BA%E8%A2%AB%E7%A6%81%E8%A8%80%E6%89%A7%E8%A1%8C%E6%93%8D%E4%BD%9C",
+        "author": "@Admilk",
+        "url": "https://gitee.com/adrae/js-plugins/raw/master/%E4%B8%BB%E4%BA%BA%E8%A2%AB%E7%A6%81%E8%A8%80%E6%89%A6%E8%A1%8C%E6%93%8D%E4%BD%9C/HelpMaster.js",
+        "describe": "主人被禁言之后如果机器人是管理就进行解禁"
+    },
+    {
+        "type": "JS",
+        "pathname": "记录帮助",
+        "repository": "https://gitee.com/HanaHimeUnica/yzjs#%E8%AE%B0%E5%BD%95%E5%B8%AE%E5%8A%A9js",
+        "author": "@小花花花儿",
+        "url": "https://gitee.com/HanaHimeUnica/yzjs/raw/master/%E8%AE%B0%E5%BD%95%E5%B8%AE%E5%8A%A9.js",
+        "describe": "抽卡记录帮助， 感谢[曉K](https://gitee.com/SmallK111407/expand-plugin/raw/master/resources/RecordHelp/%E8%AE%B0%E5%BD%95%E5%B8%AE%E5%8A%A9.psd)ps图片来源"
+    },
+    {
+        "type": "JS",
+        "pathname": "王者战绩查询",
+        "repository": "https://gitee.com/Tloml-Starry/Plugin-Example",
+        "author": "@Tloml-Starry",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/%E7%8E%8B%E8%80%85%E6%88%98%E7%BB%A9%E6%9F%A5%E8%AF%A2.js",
+        "describe": "王者荣耀战绩查询"
+    },
+    {
+        "type": "JS",
+        "pathname": "戳一戳次数统计",
+        "repository": "https://gitee.com/adrae/js-plugins/tree/master/%E6%88%B3%E4%B8%80%E6%88%B3%E6%AC%A1%E6%95%B0%E7%BB%9F%E8%AE%A1",
+        "author": "@Admilk",
+        "url": "https://gitee.com/adrae/js-plugins/raw/master/%E6%88%B3%E4%B8%80%E6%88%B3%E6%AC%A1%E6%95%B0%E7%BB%9F%E8%AE%A1/cyccs.js",
+        "describe": "统计机器人在一个群内被戳的次数并且发送次数显示"
+    },
+    {
+        "type": "JS",
+        "pathname": "明日素材",
+        "repository": "https://gitee.com/HanaHimeUnica/yzjs#%E6%98%8E%E6%97%A5%E7%B4%A0%E6%9D%90js",
+        "author": "@小花花花儿",
+        "url": "https://gitee.com/HanaHimeUnica/yzjs/raw/master/%E6%98%8E%E6%97%A5%E7%B4%A0%E6%9D%90.js",
+        "describe": "使用喵喵插件模版渲染的明日素材"
+    },
+    {
+        "type": "JS",
+        "pathname": "cp短打生成器",
+        "author": "@明月清风",
+        "url": "https://github.com/myueqf/yzbot-js-cp-text-generator/raw/main/cp%E7%9F%AD%E6%89%93%E7%94%9F%E6%88%90%E5%99%A8.js",
+        "describe": "本地cp短打生成器"
+    },
+    {
+        "type": "JS",
+        "pathname": "coze群聊机器人",
+        "author": "@eulogyjiajia",
+        "url": "https://gitee.com/eulogyjiajia/coze_proxy/raw/master/coze.js",
+        "describe": "配合discord和coze机器人聊天，免费试用gpt4模型，支持连续对话和文本转语音"
+    },
+    {
+        "type": "JS",
+        "pathname": "自动处理进群事件",
+        "author": "@浅巷墨黎",
+        "url": [
+            "https://github.com/Dnyo666/Qxml-Yunzai-js",
+            "https://gitee.com/Dnyo666/Qxml-Yunzai-js"
+        ],
+        "describe": "可以自动根据多个答案自动判断并同意进群"
+    },
+    {
+        "type": "JS",
+        "pathname": "刷听歌时长",
+        "author": "@Tloml-Starry",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/%E5%88%B7%E5%90%AC%E6%AD%8C%E6%97%B6%E9%95%BF.js",
+        "describe": "刷取QQ音乐听歌时长，同时也可以刷取音响力"
+    },
+    {
+        "type": "JS",
+        "pathname": "发言榜",
+        "author": "@Tloml-Starry",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/%E5%8F%91%E8%A8%80%E6%A6%9C.js",
+        "describe": "通过机器人实时记录群内成员发言次数，需要机器人在线才可记录"
+    },
+    {
+        "type": "JS",
+        "pathname": "抖音AI图生图",
+        "author": "@Tloml-Starry",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/%E6%8A%96%E9%9F%B3AI%E5%9B%BE%E7%94%9F%E5%9B%BE.js",
+        "describe": "借助抖音的免费接口以图生图，不可以有涩涩内容，返回换个图的可能是识别到涩涩了"
+    },
+    {
+        "type": "JS",
+        "pathname": "Epic免费游戏",
+        "author": "@Tloml-Starry",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/Epic%E5%85%8D%E8%B4%B9%E6%B8%B8%E6%88%8F.js",
+        "describe": "查询当前Epic免费游戏和即将推出的免费游戏"
+    },
+    {
+        "type": "JS",
+        "pathname": "Steam在线游戏人数排行",
+        "author": "@Tloml-Starry",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/Steam%E5%9C%A8%E7%BA%BF%E6%B8%B8%E6%88%8F%E4%BA%BA%E6%95%B0%E6%8E%92%E8%A1%8C.js",
+        "describe": "返回游戏当前在线人数排行"
+    },
+    {
+        "type": "JS",
+        "pathname": "文字找茬",
+        "author": "@Tloml-Starry",
+        "url": "https://gitee.com/Tloml-Starry/Plugin-Example/raw/master/JavaScript/%E6%96%87%E5%AD%97%E6%89%BE%E8%8C%AC.js",
+        "describe": "汉字找不同游戏"
+    },
+    {
+        "type": "JS",
+        "pathname": "发言统计",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/%E5%8F%91%E8%A8%80%E7%BB%9F%E8%AE%A1.js",
+        "describe": "类似于水群统计，可以查看发言次数排行榜"
+    },
+    {
+        "type": "JS",
+        "pathname": "插件安装器",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85%E5%99%A8.js",
+        "describe": "用于管理插件包，支持卸载、重装、插件列表、已安装插件。"
+    },
+    {
+        "type": "JS",
+        "pathname": "唱鸭",
+        "author": "@xiaotian2333",
+        "url": "https://github.com/xiaotian2333/yunzai-plugins-Single-file/main/%E5%94%B1%E9%B8%AD.js",
+        "describe": "发送唱鸭即可听唱鸭平台上的歌曲片段（仓库内还有其他更多插件）"
+    },
+    {
+        "type": "JS",
+        "pathname": "我的超能力",
+        "author": "@小花花花儿",
+        "url": "https://gitee.com/HanaHimeUnica/yzjs/raw/master/%E6%88%91%E7%9A%84%E8%B6%85%E8%83%BD%E5%8A%9B.js",
+        "describe": "我的超能力"
+    },
+    {
+        "type": "JS",
+        "pathname": "问候回复",
+        "author": "@oldcitynight",
+        "url": "https://gitee.com/oldcitynight/yunzai-js-plugins/raw/master/%E9%97%AE%E5%80%99%E5%9B%9E%E5%A4%8D.js",
+        "describe": "发送早安等问候会根据预设词库随机回复一句话，快捷安装命令请在[问候回复](https://gitee.com/oldcitynight/yunzai-js-plugins#%E9%97%AE%E5%80%99%E5%9B%9E%E5%A4%8D)查看"
+    },
+    {
+        "type": "JS",
+        "pathname": "统计QQbot DAU",
+        "author": "@小花花花儿",
+        "url": "https://gitee.com/HanaHimeUnica/yzjs/raw/master/dauchart.js",
+        "describe": "统计QQbot DAU"
+    },
+    {
+        "type": "JS",
+        "pathname": "广播通知",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/JS/gbtz.js",
+        "describe": "群发消息，可指定白名单、黑名单或是所有群聊",
+        "link": "https://gitee.com/qiannqq/yunzai-plugin-JS#%E5%B9%BF%E6%92%AD%E9%80%9A%E7%9F%A5js"
+    },
+    {
+        "type": "JS",
+        "pathname": "次权限管理",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/%E6%AC%A1%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86.js",
+        "describe": "可对指定群聊指定一个“代理人”管理该群的机器人，已实现局部用户黑名单，局部指令黑名单，……",
+        "link": "https://gitee.com/qiannqq/yunzai-plugin-JS#%E6%AC%A1%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86js"
+    },
+    {
+        "type": "JS",
+        "pathname": "违规图片监听",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/%E8%BF%9D%E8%A7%84%E5%9B%BE%E7%89%87%E7%AE%A1%E5%88%B6.js",
+        "describe": "对群友发送的图片进行实时审核，违规的图片将警告并撤回。可自行配置安全策略",
+        "link": "https://gitee.com/qiannqq/yunzai-plugin-JS"
+    },
+    {
+        "type": "JS",
+        "pathname": "定时群发",
+        "author": "@batvbs",
+        "url": "https://gitee.com/batvbs/Miao-Yunzai-batvbs/raw/master/%E5%AE%9A%E6%97%B6%E7%BE%A4%E5%8F%91.js",
+        "describe": "定时群发消息、图文、视频、卡片",
+        "link": "https://gitee.com/batvbs/Miao-Yunzai-batvbs"
+    },
+    {
+        "type": "JS",
+        "pathname": "表情包系列",
+        "author": "@logier",
+        "url": "https://gitee.com/logier/logier-plugin/raw/master/%E8%A1%A8%E6%83%85%E5%8C%85%E4%BB%93%E5%BA%93.js",
+        "describe": "发送表情包，仓库自带龙图、坤图等，支持自定义表情包",
+        "link": "https://gitee.com/logier/logier-plugin#%E8%A1%A8%E6%83%85%E5%8C%85%E7%B3%BB%E5%88%97"
+    },
+    {
+        "type": "JS",
+        "pathname": "角色生日推送",
+        "author": "@小花花花儿",
+        "url": "https://gitee.com/HanaHimeUnica/yzjs/raw/master/%E8%A7%92%E8%89%B2%E7%94%9F%E6%97%A5%E6%8E%A8%E9%80%81.js",
+        "describe": "角色生日推送，需安装喵喵插件",
+        "link": "https://gitee.com/HanaHimeUnica/yzjs#%E8%A7%92%E8%89%B2%E7%94%9F%E6%97%A5%E6%8E%A8%E9%80%81js"
+    },
+    {
+        "type": "JS",
+        "pathname": "设置主人1",
+        "author": "@batvbs",
+        "url": "https://gitee.com/batvbs/Miao-Yunzai-batvbs/raw/master/%E8%AE%BE%E7%BD%AE%E4%B8%BB%E4%BA%BA.js",
+        "describe": "快捷添加主人禁用主人，查询频道ID，禁用私聊",
+        "link": "https://gitee.com/batvbs/Miao-Yunzai-batvbs"
+    },
+    {
+        "type": "JS",
+        "pathname": "指令白名单",
+        "author": "@batvbs",
+        "url": "https://gitee.com/batvbs/Miao-Yunzai-batvbs/raw/master/%E6%8C%87%E4%BB%A4%E7%99%BD%E5%90%8D%E5%8D%95.js",
+        "describe": "指令白名单，平台机器人审核专用，主人例外",
+        "link": "https://gitee.com/batvbs/Miao-Yunzai-batvbs"
+    },
+    {
+        "type": "JS",
+        "pathname": "每日一图",
+        "author": "@catbos",
+        "url": "https://gitee.com/catbos/yunzai_plugins_js/raw/master/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%9B%BE.js",
+        "describe": "通过api获取bing每日一图与其它二次元图片",
+        "link": "https://gitee.com/catbos/yunzai_plugins_js"
+    },
+    {
+        "type": "JS",
+        "pathname": "戳一戳（纳西妲版）",
+        "author": "@catbos",
+        "url": "https://gitee.com/catbos/yunzai_plugins_js/raw/master/%E6%88%B3%E4%B8%80%E6%88%B3/%E6%88%B3%E4%B8%80%E6%88%B3%EF%BC%88%E7%BA%B3%E8%A5%BF%E5%A6%B2%E7%89%88%EF%BC%89.js",
+        "describe": "戳机器人触发效果，可自定义文案，图片以及语音回复与禁言等功能",
+        "link": "https://gitee.com/catbos/yunzai_plugins_js"
+    },
+    {
+        "type": "JS",
+        "pathname": "备份&还原",
+        "author": "@小花花花儿",
+        "url": "https://gitee.com/HanaHimeUnica/yzjs/raw/master/%E5%A4%87%E4%BB%BD&%E8%BF%98%E5%8E%9F.js",
+        "describe": "备份&还原所有插件config，面板数据，stoken，js，礼记数据，喵喵帮助",
+        "link": "https://gitee.com/HanaHimeUnica/yzjs#%E5%A4%87%E4%BB%BD%E8%BF%98%E5%8E%9Fjs"
+    },
+    {
+        "type": "JS",
+        "pathname": "清理不在群内好友",
+        "author": "@小花花花儿",
+        "url": "https://gitee.com/HanaHimeUnica/yzjs/raw/master/%E5%88%A0%E9%99%A4%E9%9D%9E%E7%BE%A4%E5%86%85%E5%A5%BD%E5%8F%8B.js",
+        "describe": "一键删除不在机器人所在群的好友",
+        "link": "https://gitee.com/HanaHimeUnica/yzjs#%E5%88%A0%E9%99%A4%E9%9D%9E%E7%BE%A4%E5%86%85%E5%A5%BD%E5%8F%8Bjs"
+    },
+    {
+        "type": "JS",
+        "pathname": "语音盒",
+        "author": "@小花花花儿",
+        "url": "https://gitee.com/HanaHimeUnica/yzjs/raw/master/%E8%AF%AD%E9%9F%B3%E7%9B%92.js",
+        "describe": "语音盒原作者[@椰羊](https://gitee.com/yeyang52)",
+        "link": "https://gitee.com/HanaHimeUnica/yzjs#%E8%AF%AD%E9%9F%B3%E7%9B%92js"
+    },
+    {
+        "type": "JS",
+        "pathname": "跳过登录QQ",
+        "author": "@Zyy955",
+        "url": "https://gitee.com/Zyy955/Yunzai-Bot-plugin/raw/main/apps.js",
+        "describe": "无需登录QQ即可使用频道插件",
+        "link": "https://gitee.com/Zyy955/Yunzai-Bot-plugin"
+    },
+    {
+        "type": "JS",
+        "pathname": "查看依赖版本",
+        "author": "@曉K",
+        "url": "https://gitee.com/SmallK111407/onlyJS/raw/main/checkPackageVersion/%5Bv1.1.0%5DcheckPackageVersion.js",
+        "describe": "可以通过该插件查看机器人单个依赖版本或所有依赖版本，具体请见文件夹内使用说明",
+        "link": "https://gitee.com/SmallK111407/onlyJS"
+    },
+    {
+        "type": "JS",
+        "pathname": "读取头像生成踹人表情包",
+        "author": "@Zyy955",
+        "url": "https://gitee.com/Zyy955/Yunzai-Bot-plugin/raw/main/kick.js",
+        "describe": "读取头像生成踹人表情包 适用于`miaozai`的icqq，`trss`的gocq群，私聊，频道插件",
+        "link": "https://gitee.com/Zyy955/Yunzai-Bot-plugin"
+    },
+    {
+        "type": "JS",
+        "pathname": "踢人黑名单",
+        "author": "@sinds",
+        "url": "https://gitee.com/sinds/yunzai-example/raw/master/Qinuos.js",
+        "describe": "可以在q群上拉黑别人 然后自动检测发送者踢出",
+        "link": "https://gitee.com/sinds/yunzai-example"
+    },
+    {
+        "type": "JS",
+        "pathname": "设置主人2",
+        "author": "@Zyy955",
+        "url": "https://gitee.com/Zyy955/Yunzai-Bot-plugin/raw/main/SetMaster.js",
+        "describe": "使用指令快捷设置主人 可在成为主人之后直接将指定用户添加为新的主人",
+        "link": "https://gitee.com/Zyy955/Yunzai-Bot-plugin"
+    },
+    {
+        "type": "JS",
+        "pathname": "迫害群友",
+        "author": "@Vzx.",
+        "url": "https://gitee.com/liuhaof/Plugins/raw/master/%E8%BF%AB%E5%AE%B3%E7%BE%A4%E5%8F%8B.js",
+        "describe": "使用文字魔法来迫害你的群友吧!",
+        "link": "https://gitee.com/liuhaof/Plugins"
+    },
+    {
+        "type": "JS",
+        "pathname": "看看TA是男的女的",
+        "author": "@曉K",
+        "url": "https://gitee.com/SmallK111407/onlyJS/raw/main/isBoyOrGirl/%5Bv1.3.5%5D%E7%9C%8B%E7%9C%8B%E4%BB%96%E6%98%AF%E7%94%B7%E7%9A%84%E5%A5%B3%E7%9A%84_isBoyOrGirl.js",
+        "describe": "单纯娱乐，如果at询问就是查看被询问人的QQ性别，如果非at就是随机性别",
+        "link": "https://gitee.com/SmallK111407/onlyJS"
+    },
+    {
+        "type": "JS",
+        "pathname": "随机二次元壁纸",
+        "author": "@赛咯",
+        "url": "https://gitee.com/sailuo110/random-anime-wallpaper/raw/master/%E9%9A%8F%E6%9C%BA%E4%BA%8C%E6%AC%A1%E5%85%83.js",
+        "describe": "提供调用api随机发送二次元壁纸的功能。",
+        "link": "https://gitee.com/sailuo110/random-anime-wallpaper"
+    },
+    {
+        "type": "JS",
+        "pathname": "抽签",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/%E6%8A%BD%E7%AD%BE.js",
+        "describe": "随机抽取签文、宜和忌、小故事。每天只能抽一次，重复使用可查看当天抽到的签。",
+        "link": "https://gitee.com/qiannqq/yunzai-plugin-JS"
+    },
+    {
+        "type": "JS",
+        "pathname": "关键词提醒",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/JS/gjctx.js",
+        "describe": "在Bot所在的群聊内，如果有人提到了你设置的关键词，比如：屑千奈太屑了，即包含“千奈”关键词，Bot会提示消息至第一个主人（私聊）",
+        "link": "https://gitee.com/qiannqq/yunzai-plugin-JS"
+    },
+    {
+        "type": "JS",
+        "pathname": "屏蔽指定指令，只有主人才可执行",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/JS/yzsxb.js",
+        "describe": "屏蔽指定指令，只有主人才可执行",
+        "link": "https://gitee.com/qiannqq/yunzai-plugin-JS"
+    },
+    {
+        "type": "JS",
+        "pathname": "模拟高考查分",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/%E6%A8%A1%E6%8B%9F%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86.js",
+        "describe": "模拟紧张刺激的高考查分，看看你的分数能考上什么学校吧~",
+        "link": "https://gitee.com/qiannqq/yunzai-plugin-JS"
+    },
+    {
+        "type": "JS",
+        "pathname": "今日老婆",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/%E4%BB%8A%E6%97%A5%E8%80%81%E5%A9%86.js",
+        "describe": "在群中随机抽取一位群友当老婆，每天只能抽一次",
+        "link": "https://gitee.com/qiannqq/yunzai-plugin-JS"
+    },
+    {
+        "type": "JS",
+        "pathname": "云崽上下班",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/%E4%BA%91%E5%B4%BD%E4%B8%8A%E4%B8%8B%E7%8F%AD.js",
+        "describe": "云崽上下班，方便调试的时候屏蔽所有指令(想不到其它用途了",
+        "link": "https://gitee.com/qiannqq/yunzai-plugin-JS"
+    },
+    {
+        "type": "JS",
+        "pathname": "LoliconAPI（图片获取）",
+        "author": "@枫",
+        "url": "https://github.com/SakuraTairitsu/LoliconAPI/main/LoliconAPI%5BV3%5D.js",
+        "describe": "从[LoliconAPI](https://api.lolicon.app/#/setu)图库获取单/多张随机或指定tag的图片",
+        "link": "https://github.com/SakuraTairitsu/LoliconAPI"
+    },
+    {
+        "type": "JS",
+        "pathname": "查委托",
+        "author": "@Hlhs",
+        "url": "https://hlhs-nb.cn/download/%E6%9F%A5%E5%A7%94%E6%89%98.js",
+        "describe": "查询原神每日委托任务是否有隐藏成就",
+        "link": "https://hlhs-nb.cn/DailyTask/item"
+    },
+    {
+        "type": "JS",
+        "pathname": "每日打卡",
+        "author": "@千奈千祁",
+        "url": "https://gitee.com/qiannqq/yunzai-plugin-JS/raw/master/%E6%AF%8F%E6%97%A5%E6%89%93%E5%8D%A1.js",
+        "describe": "每人每天随机幸运值（0-100），查看当日打卡的用户",
+        "link": "https://gitee.com/qiannqq/yunzai-plugin-JS"
+    },
+    {
+        "type": "JS",
+        "pathname": "表情包",
+        "link": "https://github.com/ikechan8370/yunzai-meme/",
+        "author": "@ikechan8370",
+        "url": "https://github.com/ikechan8370/yunzai-meme/main/meme.js",
+        "describe": "基于[meme-generator](https://github.com/MeetWq/meme-generator)的表情包插件。提供了一个默认的免费API，也可自行搭建使用。"
+    },
+    {
+        "type": "JS",
+        "pathname": "token填充",
+        "link": "https://gitee.com/mcat0/tkhelp",
+        "author": "@mCat",
+        "url": "https://gitee.com/mcat0/tkhelp/blob/master/TokenHelp.js",
+        "describe": "通过监测token和设别信息文件是否缺失来解决机器人掉线问题。"
+    },
+    {
+        "type": "JS",
+        "pathname": "自定义卡池抽卡插件",
+        "link": "https://gitee.com/wan13877501248/zdychouka",
+        "author": "@Hello World",
+        "url": "https://gitee.com/wan13877501248/zdychouka/raw/master/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8D%A1%E6%B1%A0%E6%8A%BD%E5%8D%A1%E6%8F%92%E4%BB%B6.js",
+        "describe": "提供原神自定义卡池抽卡的相关功能"
+    },
+    {
+        "type": "JS",
+        "pathname": "喜报",
+        "link": "https://gitee.com/bling_yshs/yunzaiv3-ys-plugin",
+        "author": "@bling丶一闪",
+        "url": "https://gitee.com/bling_yshs/yunzaiv3-ys-plugin/raw/master/%E5%96%9C%E6%8A%A5.js",
+        "describe": "可以生成喜报并发送，[效果图](https://gitee.com/bling_yshs/yunzaiv3-ys-plugin/blob/master/res/%E5%96%9C%E6%8A%A5%E6%95%88%E6%9E%9C%E5%9B%BE.jpg)"
+    },
+    {
+        "type": "JS",
+        "pathname": "检测骂机器人进行处理",
+        "link": "https://gitee.com/xiaoye12123/js",
+        "author": "@小叶",
+        "url": "https://gitee.com/xiaoye12123/js/raw/master/%E6%BA%90%E7%A0%81%E5%8E%BB%E6%8E%89%E9%AA%82%E4%BA%BA%E8%AF%8D%E6%B1%87%E5%88%AB%E7%94%A8%E8%BF%99%E4%B8%AA.js",
+        "describe": "检测群聊的消息，如果有at机器人或者提到机器人名字的消息中包含了违禁词的话就会进行处理"
+    },
+    {
+        "type": "JS",
+        "pathname": "人物识别",
+        "link": "https://gitee.com/shuciqianye/yunzai-AnimeTrace",
+        "author": "@书辞千楪",
+        "url": "https://gitee.com/shuciqianye/yunzai-AnimeTrace/raw/master/%E4%BA%BA%E7%89%A9%E8%AF%86%E5%88%AB.js",
+        "describe": "可根据您提供的图片识别出图片中的日漫人物或游戏角色"
+    },
+    {
+        "type": "JS",
+        "pathname": "飞花令",
+        "link": "https://gitee.com/Nwflower/flower",
+        "author": "@西北一枝花",
+        "url": "https://gitee.com/Nwflower/flower/raw/master/%E5%8F%91%E8%8A%B1%E4%BB%A4.js",
+        "describe": "灵感来自于诗词大会。"
+    },
+    {
+        "type": "JS",
+        "pathname": "js/cmd代码运行",
+        "link": "https://github.com/yyk725/yunzai_jsrun",
+        "author": "@呀哈哈之友林克",
+        "url": "https://github.com/yyk725/yunzai_jsrun/raw/main/jsrun.js",
+        "describe": "在qq群中运行js/cmd代码（有便利也有风险，谨慎使用）"
+    },
+    {
+        "type": "JS",
+        "pathname": "查询QQ等级信息",
+        "link": "https://gitee.com/Tloml-Starry/114514",
+        "author": "@Tloml-Starry",
+        "url": "https://gitee.com/Tloml-Starry/114514/raw/master/%E3%80%8C%E6%9F%A5%E8%AF%A2%E3%80%8DQQ%E7%AD%89%E7%BA%A7%E4%BF%A1%E6%81%AF.js",
+        "describe": "查询QQ等级信息，及入网时间"
+    },
+    {
+        "type": "JS",
+        "pathname": "光遇每日任务",
+        "link": "https://gitee.com/xin-closing-fuse/sky-yunzai-v3-plugins",
+        "author": "@自闭歆",
+        "url": "https://gitee.com/xin-closing-fuse/sky-yunzai-v3-plugins/raw/master/光遇.js",
+        "describe": "提供光遇每日任务的攻略数据来自[好游快爆](https://www.onebiji.com/hykb_tools/guangyu/rwgl/index.php)"
+    },
+    {
+        "type": "JS",
+        "pathname": "日群友",
+        "link": "https://github.com/MyWifeAsuna/Fuck-QQGroup-Everyone",
+        "author": "@MyWifeAsuna",
+        "url": "https://github.com/MyWifeAsuna/Fuck-QQGroup-Everyone/main/%E6%97%A5%E7%BE%A4%E5%8F%8B.js",
+        "describe": "新的一天从随机向群友发情开始"
+    },
+    {
+        "type": "JS",
+        "pathname": "成分姬",
+        "link": "https://github.com/ldcivan/ddcheck_plugin",
+        "author": "@YujioNako",
+        "url": "https://github.com/ldcivan/ddcheck_plugin/main/%E6%9F%A5%E6%88%90%E5%88%86.js",
+        "describe": "看看你的B站成分，对比数据来自vtbs.moe"
+    },
+    {
+        "type": "JS",
+        "pathname": "真实评分",
+        "link": "https://github.com/ldcivan/true_ranking_plugin",
+        "author": "@YujioNako",
+        "url": "https://github.com/ldcivan/true_ranking_plugin/main/true_ranking.js",
+        "describe": "获取b站番剧长短评来手动计算实际的评分数据"
+    },
+    {
+        "type": "JS",
+        "pathname": "战地战绩查询插件",
+        "link": "https://github.com/ldcivan/bf_info_plugin",
+        "author": "@YujioNako",
+        "url": "https://github.com/ldcivan/bf_info_plugin/main/bf_info.js",
+        "describe": "提供田野打架™1！5！代战绩查询服务的js插件"
+    },
+    {
+        "type": "JS",
+        "pathname": "WeLM的ai对话",
+        "link": "https://gitee.com/shuciqianye/yunzai-custom-dialogue-welm",
+        "author": "@JD, @兰罗摩, @书辞千楪",
+        "url": "https://gitee.com/shuciqianye/yunzai-custom-dialogue-welm/blob/js-version/welm(JS).js",
+        "describe": "提供个性ai问答、提问和续写(chatgpt下下下位替代)功能"
+    },
+    {
+        "type": "JS",
+        "pathname": "give_me_some_heis",
+        "link": "https://gitee.com/koinori/give_me_some_heis",
+        "author": "@koinori",
+        "sourceV2": "https://gitee.com/koinori/give_me_some_heis/raw/master/give_me_some_heisV2.js",
+        "url": "https://gitee.com/koinori/give_me_some_heis/raw/master/give_me_some_heisV3.js",
+        "describe": "给群友发点黑"
+    },
+    {
+        "type": "JS",
+        "pathname": "点歌",
+        "link": "https://github.com/NiqInBish/qqmusic",
+        "author": "@NiqInBish",
+        "url": "https://github.com/NiqInBish/qqmusic/main/qqmusic.js",
+        "describe": "群内点歌插件，可支持多个音乐平台"
+    }
+]
