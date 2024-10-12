@@ -7,7 +7,7 @@ import fs from 'fs'
 
 const filePath = 'plugins/example/up.js';
 const url = 'https://gitee.com/tu-zhengxiong0925/JiaoziJS/raw/main/JavaScript/update.js';
-const update = 'https://raw.githubusercontent.com/T060925ZX/Jiaozi/refs/heads/main/plugins.js';
+const update = 'https://gitee.com/tu-zhengxiong0925/JiaoziJS/raw/main/JavaScript/update.js';
 
 fs.access(filePath, fs.constants.F_OK, (err) => {
     if (err) {
