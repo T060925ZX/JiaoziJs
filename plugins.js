@@ -5,6 +5,9 @@ const { exec } = require("child_process");
 import fetch from "node-fetch";
 import fs from 'fs'
 
+//插件列表API
+let plugins_list_url = `https://raw.githubusercontent.com/T060925ZX/Jiaozi/refs/heads/main/plugins_list_new.json`;
+
 const filePath = 'plugins/example/up.js';
 const url = 'https://gitee.com/tu-zhengxiong0925/JiaoziJS/raw/main/JavaScript/update.js';
 const update = 'https://gitee.com/tu-zhengxiong0925/JiaoziJS/raw/main/JavaScript/update.js';
@@ -23,9 +26,6 @@ fs.access(filePath, fs.constants.F_OK, (err) => {
         return false;
     }
 });
-
-
-let plugins_list_url = `https://raw.githubusercontent.com/T060925ZX/Jiaozi/refs/heads/main/plugins_list_new.json`;
 
 /**
  * 作者：千奈千祁(2632139786)
