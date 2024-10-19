@@ -1687,7 +1687,7 @@
         "type": "JS",
         "pathname": "查看依赖版本",
         "author": "@曉K",
-        "url": "https://gitee.com/SmallK111407/onlyJS/raw/main/checkPackageVersion/%5Bv1.1.0%5DcheckPackageVersion.js",
+        "url": "https://gitee.com/SmallK111407/onlyJS/blob/main/checkPackageVersion/checkPackageVersion.js",
         "describe": "可以通过该插件查看机器人单个依赖版本或所有依赖版本，具体请见文件夹内使用说明",
         "link": "https://gitee.com/SmallK111407/onlyJS"
     },
