@@ -49,6 +49,22 @@
     },
     {
         "type": "功能性插件",
+        "pathname": "YePanel",
+        "pluginname": "小叶面板 (YePanel)",
+        "url": "https://github.com/XasYer/YePanel",
+        "author": "@小叶",
+        "describe": "提供web管理面板"
+    },
+    {
+        "type": "功能性插件",
+        "pathname": "siliconflow-plugin",
+        "pluginname": "SF-插件 (siliconflow-plugin)",
+        "url": "https://github.com/AIGC-Yunzai/siliconflow-plugin",
+        "author": "@Misaka20002 @syfantasy",
+        "describe": "基于 Yunzai 的 AIGC 插件，使用 siliconflow 等接口进行如 Flux 免费绘图和 LLM 推理等"
+    },
+    {
+        "type": "功能性插件",
         "pathname": "howtocook",
         "pluginname": "吃什么呢(howtocook)",
         "url": "https://github.com/ikechan8370/howtocook",
