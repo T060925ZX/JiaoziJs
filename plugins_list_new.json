@@ -963,9 +963,9 @@
         "type": "功能性插件",
         "pathname": "suiyue",
         "pluginname": "碎月插件",
-        "url": "https://gitee.com/Acceleratorsky/suiyue",
-        "author": "@碎月",
-        "describe": "此插件已跑路，戳我前往喵崽维护版疫情，清晰度提升，搜番，搜磁力，疯狂星期四，计算器"
+        "url": "https://gitee.com/SmallK111407/suiyue",
+        "author": "@曉K",
+        "describe": "清晰度提升，搜番，搜磁力，疯狂星期四，计算器。原插件已跑路，本Fork项目为延续更新或修复bug，会尝试适配喵崽、TRSS崽等。本项目中的使用到的nodejieba依赖在Windows环境下及其难以安装，请自行斟酌是否使用。"
     },
     {
         "type": "功能性插件",
