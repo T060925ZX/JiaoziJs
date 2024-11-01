@@ -197,7 +197,7 @@ export class example2 extends plugin {
         await e.reply(`已搜索到插件，正在安装中……`)
         let com
         if(plugin_onoff[0].url.includes(`github`)) {
-            com = `git clone --depth=1 ${plugin_onoff[0].url}.git ./plugins/${plugin_onoff[0].pathname}/`
+            com = `git clone --depth=1 https://ghp.ci/${plugin_onoff[0].url}.git ./plugins/${plugin_onoff[0].pathname}/`
         } else {
             com = `git clone --depth=1 ${plugin_onoff[0].url}.git ./plugins/${plugin_onoff[0].pathname}/`
         }
