@@ -38,8 +38,8 @@ fs.access(filePath, fs.constants.F_OK, (err) => {
 export class example2 extends plugin {
     constructor () {
       super({
-        name: '插件管理器',
-        dsc: '插件管理器@Jiaozi',
+        name: '插件管理器Pro',
+        dsc: '插件管理器Pro@Jiaozi',
         event: 'message',
         priority: -1,
         rule: [
@@ -90,12 +90,12 @@ export class example2 extends plugin {
 # 安装(js)插件[插件名]
 # 卸载(js)插件[插件名]
 # 已安装(js)插件
-# 更新插件安装器
 # 搜索插件[关键词]
 # 安装依赖[插件名]
+# 更新up
 分类：推荐 功能 游戏 文游 JS
 >> (选填) [必填]
->>插件管理器 v2.3.5`;
+>>插件管理器Pro v2.3.6`;
 
   return e.reply(helpMessage, { quto: true });
     }
