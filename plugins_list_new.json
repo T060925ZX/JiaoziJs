@@ -331,7 +331,7 @@
         "type": "功能性插件",
         "pathname": "starlight-qsign",
         "pluginname": "星点签名",
-        "url": "https://gitlab.com/v17360963/starlight-qsign",
+        "url": "https://github.com/wuliya336/starlight-qsign",
         "author": "@wuliya336",
         "describe": "向机器发送信息可自动获取可用的免费签名"
     },
