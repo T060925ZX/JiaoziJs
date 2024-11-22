@@ -6,7 +6,7 @@ import fetch from "node-fetch";
 import fs from 'fs'
 
 //插件列表API
-let plugins_list_url = `https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/plugins_list_new.json`;
+let plugins_list_url = `https://ghp.ci/https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/plugins_list_new.json`;
 
 const filePath = 'plugins/example/up.js';
 const url = 'https://gitee.com/tu-zhengxiong0925/JiaoziJS/raw/main/JavaScript/update.js';
