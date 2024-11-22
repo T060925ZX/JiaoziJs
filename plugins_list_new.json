@@ -835,7 +835,7 @@
         "type": "功能性插件",
         "pathname": "hs-qiqi-Plugin",
         "pluginname": "枫叶插件",
-        "url": "https://plugin.kesally.ren/",
+        "url": "https://gitee.com/kesally/hs-qiqi-cv-plugin",
         "author": "@Kesally",
         "describe": "提供多个AI对话，名片自动绑定uid，坤图，睡眠时间等有趣且实用的娱乐小功能"
     },
