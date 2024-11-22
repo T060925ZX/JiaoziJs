@@ -95,7 +95,7 @@ export class example2 extends plugin {
 # 更新up
 分类：推荐 功能 游戏 文游 JS
 >> (选填) [必填]
->>插件管理器Pro v2.3.6`;
+>>插件管理器Pro v2.3.7`;
 
   return e.reply(helpMessage, { quto: true });
     }
