@@ -89,6 +89,13 @@
     },
     {
         "type": "JS",
+        "pathname": "mc服务器列表V2.4",
+        "author": "@浅巷墨黎",
+        "url": "https://raw.githubusercontent.com/Dnyo666/Qxml-Yunzai-js/main/js/mc服务器列表V2.4.js",
+        "describe": "一个可以添加管理群内mc服务器列表的插件，可添加标题、ip、描述，可以查询状态和在线玩家列表"
+    },
+    {
+        "type": "JS",
         "pathname": "插件安装器Pro",
         "pluginname": "插件安装器Pro",
         "url": "https://gitee.com/tu-zhengxiong0925/JiaoziJS/raw/main/JavaScript/plugin.js",
