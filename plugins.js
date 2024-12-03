@@ -378,7 +378,7 @@ async 搜索插件(e) {
     let installCommand = item.type === 'JS' ? `#安装js插件${item.pathname}` : `#安装插件${item.pathname}`;
       let msgList_ = 
 `插件类型: ${item.type || '未知'}
-插件名称: ${item.pluginname || '未知'}
+插件名称: ${item.pluginname || item.pathname || '未知'}
 作者: ${item.author || '未知'}
 简介: ${item.describe || '无'}
 插件链接: ${item.url || '无'}
