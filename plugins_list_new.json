@@ -49,6 +49,14 @@
     },
     {
         "type": "功能性插件",
+        "pathname": "yunzai-yt-dl-plugin",
+        "pluginname": "YouTube/油管视频下载插件(yunzai-yt-dl-plugin)",
+        "url": "https://github.com/GangFaDeShenMe/yunzai-yt-dl-plugin",
+        "author": "@GangFaDeShenMe",
+        "describe": "自动识别消息中的 YouTube 链接，下载并发送对应的视频，并支持输出视频相关信息。"
+    },
+    {
+        "type": "功能性插件",
         "pathname": "YePanel",
         "pluginname": "小叶面板 (YePanel)",
         "url": "https://github.com/XasYer/YePanel",
