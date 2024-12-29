@@ -65,6 +65,14 @@
     },
     {
         "type": "功能性插件",
+        "pathname": "clarity-meme",
+        "pluginname": "清语表情 (clarity-meme)",
+        "url": "https://github.com/wuliya336/clarity-meme",
+        "author": "@wuliya336",
+        "describe": "清语表情是一个Yunzai-Bot | Karin(暂未完成)的扩展插件，提供表情包合成等功能"
+    },
+    {
+        "type": "功能性插件",
         "pathname": "siliconflow-plugin",
         "pluginname": "SF-插件 (siliconflow-plugin)",
         "url": "https://github.com/AIGC-Yunzai/siliconflow-plugin",
