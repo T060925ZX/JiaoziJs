@@ -6,7 +6,7 @@ import fetch from "node-fetch";
 import fs from 'fs'
 
 //插件列表API
-let plugins_list_url = `https://ghp.ci/https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/plugins_list_new.json`;
+let plugins_list_url = `https://ghfast.top/https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/plugins_list_new.json`;
 
 const filePath = 'plugins/example/up.js';
 const url = 'https://gitee.com/tu-zhengxiong0925/JiaoziJS/raw/main/JavaScript/update.js';
@@ -197,7 +197,7 @@ export class example2 extends plugin {
         await e.reply(`已搜索到插件，正在安装中……`)
         let com
         if(plugin_onoff[0].url.includes(`github`)) {
-            com = `git clone --depth=1 https://ghp.ci/${plugin_onoff[0].url}.git ./plugins/${plugin_onoff[0].pathname}/`
+            com = `git clone --depth=1 https://ghfast.top/${plugin_onoff[0].url}.git ./plugins/${plugin_onoff[0].pathname}/`
         } else {
             com = `git clone --depth=1 ${plugin_onoff[0].url}.git ./plugins/${plugin_onoff[0].pathname}/`
         }
@@ -601,3 +601,4 @@ async function lplm(c, l) {
   }
   return a
 }
+
