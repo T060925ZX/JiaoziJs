@@ -228,7 +228,7 @@ cd ${install_path}
 
 # 克隆meme-generator仓库
 echo -e ${green}克隆meme-generator仓库...${background}
-if ! git_clone "https://gh.llkk.cc/https://github.com/MemeCrafters/meme-generator.git" "${install_path}/meme-generator" "/dev/null"; then
+if ! git_clone "https://gh-proxy.com/https://github.com/MemeCrafters/meme-generator.git" "${install_path}/meme-generator" "/dev/null"; then
   echo -e ${red}克隆meme-generator仓库失败${background}
   echo -en ${yellow}回车返回${background};read
   return 1
@@ -286,14 +286,14 @@ python -m meme_generator.cli meme download
 
 # 下载额外图片 - 1
 echo -e ${green}下载额外图片meme-generator-contrib...${background}
-if ! git_clone "https://gh.llkk.cc/https://github.com/MemeCrafters/meme-generator-contrib.git" "${install_path}/meme-generator-contrib" "/dev/null"; then
+if ! git_clone "https://gh-proxy.com/https://github.com/MemeCrafters/meme-generator-contrib.git" "${install_path}/meme-generator-contrib" "/dev/null"; then
   echo -e ${red}克隆meme-generator-contrib仓库失败${background}
   echo -e ${yellow}继续安装其他组件...${background}
 fi
 
 # 下载额外图片 - 2
 echo -e ${green}下载额外图片meme_emoji...${background}
-if ! git_clone "https://gh.llkk.cc/https://github.com/anyliew/meme_emoji.git" "${install_path}/meme_emoji" "/dev/null"; then
+if ! git_clone "https://gh-proxy.com/https://github.com/anyliew/meme_emoji.git" "${install_path}/meme_emoji" "/dev/null"; then
   echo -e ${red}克隆meme_emoji仓库失败${background}
   echo -e ${yellow}继续安装其他组件...${background}
 fi
