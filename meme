@@ -1,0 +1,238 @@
+#!/bin/bash
+
+# meme_generator_pm2.sh - PM2 启动脚本
+# 版本: 1.0.0
+
+# 颜色定义
+export red="\033[31m"
+export green="\033[32m"
+export yellow="\033[33m"
+export blue="\033[34m"
+export purple="\033[35m"
+export cyan="\033[36m"
+export white="\033[37m"
+export background="\033[0m"
+
+# 安装路径
+install_path="$HOME/memeGenerator"
+config_path="$HOME/.config/meme_generator/config.toml"
+
+# 检查是否以 root 运行
+if [ "$(id -u)" != "0" ]; then
+    echo -e "${red}请使用 root 用户运行此脚本${background}"
+    exit 1
+fi
+
+# 检查 PM2 是否安装
+check_pm2() {
+    if ! command -v pm2 &> /dev/null; then
+        echo -e "${red}PM2 未安装，请先安装: npm install -g pm2${background}"
+        exit 1
+    fi
+}
+
+# 检查 meme-generator 是否安装
+check_installation() {
+    if [ ! -d "${install_path}/meme-generator" ]; then
+        echo -e "${red}meme-generator 未安装，请先安装${background}"
+        exit 1
+    fi
+    
+    if [ ! -f "${install_path}/meme-generator/venv/bin/activate" ]; then
+        echo -e "${red}Python 虚拟环境未找到${background}"
+        exit 1
+    fi
+}
+
+# 获取端口号
+get_port() {
+    if [ -f "${config_path}" ]; then
+        port=$(grep -E "port" ${config_path} | awk '{print $3}')
+        echo ${port}
+    else
+        echo "50835"  # 默认端口
+    fi
+}
+
+# 检查服务是否运行
+check_service() {
+    port=$(get_port)
+    if curl -sL "127.0.0.1:${port}" > /dev/null 2>&1; then
+        return 0
+    else
+        return 1
+    fi
+}
+
+# 启动服务
+start_service() {
+    echo -e "${green}正在启动 meme-generator...${background}"
+    
+    # 创建 PM2 配置文件
+    pm2_config="${install_path}/meme-generator/pm2.config.js"
+    cat > ${pm2_config} << EOF
+module.exports = {
+  apps: [{
+    name: 'meme_generator',
+    script: '${install_path}/meme-generator/venv/bin/python',
+    args: '-m meme_generator.app',
+    cwd: '${install_path}/meme-generator',
+    interpreter: 'none',
+    env: {
+      PATH: '${install_path}/meme-generator/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+      HOME: '${HOME}'
+    },
+    autorestart: true,
+    watch: false,
+    max_memory_restart: '500M',
+    instances: 1,
+    exec_mode: 'fork',
+    log_file: '${HOME}/.config/meme_generator/pm2-combined.log',
+    out_file: '${HOME}/.config/meme_generator/pm2-out.log',
+    error_file: '${HOME}/.config/meme_generator/pm2-error.log',
+    combine_logs: true,
+    time: true,
+    max_restarts: 10,
+    min_uptime: '10s'
+  }]
+}
+EOF
+
+    # 启动服务
+    cd ${install_path}/meme-generator
+    pm2 start ${pm2_config}
+    
+    # 保存配置
+    pm2 save --force
+    
+    echo -e "${green}服务启动命令已发送${background}"
+    
+    # 等待服务启动
+    echo -e "${yellow}等待服务启动...${background}"
+    for i in {1..30}; do
+        if check_service; then
+            echo -e "${green}✓ meme-generator 启动成功${background}"
+            echo -e "${cyan}服务地址: http://127.0.0.1:${port}${background}"
+            return 0
+        fi
+        sleep 1
+        echo -n "."
+    done
+    
+    echo -e "${red}✗ 服务启动超时，请检查日志${background}"
+    return 1
+}
+
+# 停止服务
+stop_service() {
+    echo -e "${yellow}正在停止 meme-generator...${background}"
+    
+    if pm2 list | grep -q "meme_generator"; then
+        pm2 stop meme_generator
+        pm2 delete meme_generator
+        pm2 save --force
+        echo -e "${green}✓ 服务已停止${background}"
+    else
+        echo -e "${yellow}服务未在 PM2 中运行${background}"
+        
+        # 尝试杀死可能存在的进程
+        pids=$(ps aux | grep "meme_generator.app" | grep -v grep | awk '{print $2}')
+        if [ -n "$pids" ]; then
+            kill $pids
+            echo -e "${green}✓ 已终止相关进程${background}"
+        fi
+    fi
+}
+
+# 重启服务
+restart_service() {
+    stop_service
+    sleep 2
+    start_service
+}
+
+# 查看状态
+status_service() {
+    if pm2 list | grep -q "meme_generator"; then
+        echo -e "${green}✓ meme-generator 正在 PM2 中运行${background}"
+        pm2 info meme_generator
+        
+        port=$(get_port)
+        if check_service; then
+            echo -e "${green}✓ Web 服务正常 (端口: ${port})${background}"
+        else
+            echo -e "${red}✗ Web 服务无法访问${background}"
+        fi
+    else
+        echo -e "${yellow}✗ meme-generator 未在 PM2 中运行${background}"
+        
+        # 检查是否有其他进程在运行
+        pids=$(ps aux | grep "meme_generator.app" | grep -v grep | awk '{print $2}')
+        if [ -n "$pids" ]; then
+            echo -e "${yellow}⚠ 发现未受管理的进程: ${pids}${background}"
+        fi
+    fi
+}
+
+# 查看日志
+view_logs() {
+    if pm2 list | grep -q "meme_generator"; then
+        echo -e "${green}显示最近日志 (Ctrl+C 退出)...${background}"
+        pm2 logs meme_generator --lines 50
+    else
+        echo -e "${red}服务未运行，无法查看日志${background}"
+    fi
+}
+
+# 显示帮助
+show_help() {
+    echo -e "${green}meme-generator PM2 管理脚本${background}"
+    echo "用法: $0 {start|stop|restart|status|logs|help}"
+    echo ""
+    echo "命令:"
+    echo "  start    - 启动服务"
+    echo "  stop     - 停止服务"
+    echo "  restart  - 重启服务"
+    echo "  status   - 查看状态"
+    echo "  logs     - 查看日志"
+    echo "  help     - 显示帮助"
+    echo ""
+    echo "示例:"
+    echo "  $0 start"
+    echo "  $0 status"
+}
+
+# 主函数
+main() {
+    check_pm2
+    check_installation
+    
+    case "$1" in
+        start)
+            start_service
+            ;;
+        stop)
+            stop_service
+            ;;
+        restart)
+            restart_service
+            ;;
+        status)
+            status_service
+            ;;
+        logs)
+            view_logs
+            ;;
+        help|--help|-h)
+            show_help
+            ;;
+        *)
+            echo -e "${red}无效命令: $1${background}"
+            show_help
+            exit 1
+            ;;
+    esac
+}
+
+# 运行主函数
+main "$@"
