@@ -1965,10 +1965,10 @@
     },
     {
         "type": "JS",
-        "pathname": "点歌",
-        "link": "https://github.com/NiqInBish/qqmusic",
-        "author": "@NiqInBish",
-        "url": "https://github.com/NiqInBish/qqmusic/main/qqmusic.js",
-        "describe": "群内点歌插件，可支持多个音乐平台"
+        "pathname": "ZZZ卡池查询",
+        "link": "https://github.com/devil233-ui/gachaHistory-for-ZZZ",
+        "author": "@devil233-ui",
+        "url": "https://github.com/devil233-ui/gachaHistory-for-ZZZ/ZZZ卡池查询.js",
+        "describe": "vibecoding的产物，云崽单js，自用（is合理也可能采纳）"
     }
 ]
