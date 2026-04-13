@@ -9,7 +9,7 @@
 </div>
 
 <details>
-<summary><b>🎯 Help_Lite.js - 极简宽屏帮助菜单</b>（点击展开）</summary>
+<summary><b>🎯 Help_Lite.js - 极简帮助菜单</b>（点击展开）</summary>
 
 ### 功能特点
 - **可视化编辑**: 支持在线可视化编辑配置 (https://help.jiaozi.live/)
