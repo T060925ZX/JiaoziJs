@@ -1,5 +1,7 @@
 # YunzaiJs - Yunzai Bot 插件集合
 
+下载插件的指令写错了，自己下载一下js导入吧
+
 <div align="center">
   <p>
     <img src="https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge" alt="Version">
