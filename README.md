@@ -253,7 +253,7 @@ pnpm add puppeteer nodemailer yaml node-fetch -w
 
 ### 重启 Bot
 ```bash
-# 重启 Bot 使插件生效
+# 重启 使插件生效
 ```
 
 ---
@@ -266,6 +266,17 @@ Copyright (c) 2024-2026 Jiaozi
 
 ---
 
+## 🤝 贡献
+
+欢迎提交 Issue 和 Pull Request!
+
+## 📮 联系方式
+
+如有问题或建议,请通过以下方式联系:
+- 提交 GitHub Issue
+- 点击链接加入群聊[【☁️云朵收容所】](https://qm.qq.com/q/MIMtWRobQI) 1048206553
+
 <div align="center">
+  <p>⭐ 如果这个项目对你有帮助,请给个 Star 吧!</p>
   <p>Made with ❤️ by Jiaozi</p>
 </div>
