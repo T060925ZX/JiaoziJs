@@ -1,4 +1,4 @@
-# JiaoziJs - Yunzai Bot 插件集合
+# YunzaiJs - Yunzai Bot 插件集合
 
 <div align="center">
   <p>
@@ -26,8 +26,7 @@
 
 ### 📥 安装方法
 ```bash
-cd Yunzai-Bot/plugins/example
-git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/Help_Lite.js ./Help_Lite.js
+git clone https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/Help_Lite.js ./plugins/example/Help_Lite.js
 ```
 
 ### ⚙️ 配置说明
@@ -78,8 +77,7 @@ background_image_url: ''          # 背景图片 URL
 
 ### 📥 安装方法
 ```bash
-cd Yunzai-Bot/plugins/example
-git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/bot_auth.js ./bot_auth.js
+git clone https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/bot_auth.js ./plugins/example/bot_auth.js
 ```
 
 ### ⚙️ 配置说明
@@ -125,8 +123,7 @@ const MASTER_BOT = '2660750139'  // 负责授权的机器人 QQ 号
 
 ### 📥 安装方法
 ```bash
-cd Yunzai-Bot/plugins/example
-git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/反馈_发邮件喷v1.1.js ./反馈_发邮件喷v1.1.js
+git clone https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/反馈_发邮件喷v1.1.js ./plugins/example/反馈_发邮件喷v1.1.js
 ```
 
 ### ⚙️ 配置说明
@@ -184,8 +181,7 @@ const CONFIG = {
 
 ### 📥 安装方法
 ```bash
-cd Yunzai-Bot/plugins/example
-git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/claw_hermes.js ./claw_hermes.js
+git clone https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/claw_hermes.js ./plugins/example/claw_hermes.js
 ```
 
 ### ⚙️ 配置说明
@@ -216,8 +212,7 @@ const ALLOWED_USERS = [1602833550]  // 允许使用 AI 功能的用户 ID 列表
 
 ### 📥 安装方法
 ```bash
-cd Yunzai-Bot/plugins/example
-git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/[Linux]浏览器进程优化.js ./[Linux]浏览器进程优化.js
+git clone https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/[Linux]浏览器进程优化.js ./plugins/example/[Linux]浏览器进程优化.js
 ```
 
 ### ⚙️ 配置说明
@@ -242,12 +237,18 @@ const MAX_PROCESSES = 20;           // 触发清理的进程阈值
 ## 📦 通用安装说明
 
 ### 前置要求
-- [Yunzai Bot](https://github.com/yoimiya-kokomi/Miao-Yunzai) 或兼容框架
-- Node.js >= 16.x
+- [Yunzai Bot](https://gitee.com/TimeRainStarSky/Yunzai) 或其他兼容框架
+- Node.js >= 24.x
 
 ### 安装依赖
+二选一
+
 ```bash
-npm install puppeteer nodemailer yaml node-fetch
+cd plugin && pnpm add puppeteer nodemailer yaml node-fetch
+```
+
+```bash
+pnpm add puppeteer nodemailer yaml node-fetch -w
 ```
 
 ### 重启 Bot
