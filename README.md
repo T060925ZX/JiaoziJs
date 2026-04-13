@@ -8,12 +8,6 @@
   </p>
 </div>
 
-## 📖 项目简介
-
-JiaoziJs 是一个专为 [Yunzai Bot](https://github.com/yoimiya-kokomi/Miao-Yunzai) 设计的多功能插件集合,提供了帮助菜单、授权管理、反馈系统、AI 助手控制等实用功能。所有插件均采用现代化设计,支持精美的图片渲染和友好的用户交互体验。
-
-## ✨ 功能特性
-
 <details>
 <summary><b>🎯 Help_Lite.js - 极简宽屏帮助菜单</b>（点击展开）</summary>
 
@@ -35,6 +29,35 @@ JiaoziJs 是一个专为 [Yunzai Bot](https://github.com/yoimiya-kokomi/Miao-Yun
 cd Yunzai-Bot/plugins/example
 git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/Help_Lite.js ./Help_Lite.js
 ```
+
+### ⚙️ 配置说明
+首次运行会自动生成 `resources/help-plugin/config.yaml`，编辑该文件可自定义：
+
+```yaml
+main_title: 'YUNZAI BOT'          # 主标题
+sub_title: 'COMMAND MENU'         # 副标题
+theme: 'auto'                     # 主题: auto/dark/light
+device_scale_factor: 1.2          # 设备缩放比例
+default_hitokoto: ''              # 默认一言(留空则从 API 获取)
+background_image_url: ''          # 背景图片 URL
+```
+
+**可视化编辑**: 访问 https://help.jiaozi.live/ 进行在线配置，导出后保存到 `resources/help-plugin/help.yaml`
+
+### 📖 使用说明
+1. 访问 https://help.jiaozi.live/ 进行可视化编辑
+2. 编辑完成后导出配置
+3. 将配置保存到 `resources/help-plugin/help.yaml`
+4. 发送 `#刷新帮助` 应用更改
+
+### ⚠️ 注意事项
+- **Puppeteer 依赖**: 确保系统已安装 Chromium/Chrome 浏览器
+- **网络访问**: 需要访问 GitHub/Gitee 下载图标资源
+
+### 🛠️ 技术栈
+- Puppeteer (图片渲染)
+- YAML (配置处理)
+- node-fetch (网络请求)
 
 </details>
 
@@ -59,6 +82,30 @@ cd Yunzai-Bot/plugins/example
 git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/bot_auth.js ./bot_auth.js
 ```
 
+### ⚙️ 配置说明
+在文件顶部修改以下配置：
+
+```javascript
+const MASTER_BOT = '2660750139'  // 负责授权的机器人 QQ 号
+```
+
+### 📖 使用说明
+```
+管理员在主机器人上执行:
+#授权123456789:30     → 授权群聊 123456789 30天
+#授权本群30           → 授权当前群聊 30天
+
+用户查询授权状态:
+#查询授权             → 查看当前群聊/用户的授权信息
+```
+
+### ⚠️ 注意事项
+- **权限控制**: 仅 MASTER_BOT 配置的机器人可执行授权操作
+
+### 🛠️ 技术栈
+- Puppeteer (图片渲染)
+- Node.js fs模块 (数据存储)
+
 </details>
 
 <details>
@@ -82,6 +129,43 @@ cd Yunzai-Bot/plugins/example
 git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/反馈_发邮件喷v1.1.js ./反馈_发邮件喷v1.1.js
 ```
 
+### ⚙️ 配置说明
+在文件顶部的 `CONFIG` 对象中配置邮件服务：
+
+```javascript
+const CONFIG = {
+  enable_email: true,              // 是否启用邮件功能
+  smtp_host: 'smtp.qq.com',        // SMTP 服务器
+  smtp_port: 465,                  // SMTP 端口
+  smtp_secure: true,               // 是否使用 SSL
+  smtp_user: 'your-email@qq.com',  // 发件人邮箱
+  smtp_pass: 'your-app-password',  // 邮箱授权码
+  target_email: 'target@qq.com',   // 接收反馈的邮箱
+  subject_prefix: '【机器人反馈记录】' // 邮件标题前缀
+};
+```
+
+**注意**: 使用 QQ 邮箱需开启 SMTP 并获取授权码
+
+### 📖 使用说明
+```
+用户提交反馈:
+#反馈 这个功能有问题    → 提交反馈并发送邮件给管理员
+
+管理员查看反馈:
+#查看反馈             → 生成反馈列表图片
+#清空反馈             → 清除所有反馈记录
+```
+
+### ⚠️ 注意事项
+- **邮件配置**: 使用 QQ 邮箱需开启 SMTP 并获取授权码
+- **权限控制**: 查看和清除反馈仅限主人使用
+
+### 🛠️ 技术栈
+- Nodemailer (邮件服务)
+- Puppeteer (图片渲染)
+- Node.js fs模块 (数据存储)
+
 </details>
 
 <details>
@@ -104,6 +188,21 @@ cd Yunzai-Bot/plugins/example
 git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/claw_hermes.js ./claw_hermes.js
 ```
 
+### ⚙️ 配置说明
+在文件顶部修改允许使用的用户 ID 列表：
+
+```javascript
+const ALLOWED_USERS = [1602833550]  // 允许使用 AI 功能的用户 ID 列表
+```
+
+**提示**: 插件会自动检测 hermes 可执行文件路径，无需手动配置
+
+### ⚠️ 注意事项
+- **权限控制**: 仅白名单用户可使用 AI 功能
+
+### 🛠️ 技术栈
+- Node.js child_process (命令执行)
+
 </details>
 
 <details>
@@ -115,204 +214,57 @@ git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/c
 - **日志记录**: 详细记录检测和清理过程
 - **可配置参数**: 可自定义检测间隔和进程阈值
 
-### 配置参数
-- `CHECK_INTERVAL`: 检测间隔(默认 600 秒)
-- `MAX_PROCESSES`: 触发清理的进程阈值(默认 20)
-
 ### 📥 安装方法
 ```bash
 cd Yunzai-Bot/plugins/example
 git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/[Linux]浏览器进程优化.js ./[Linux]浏览器进程优化.js
 ```
 
-**注意:** 此脚本仅适用于 Linux 系统
+### ⚙️ 配置说明
+在文件顶部修改以下参数：
+
+```javascript
+const CHECK_INTERVAL = 600 * 1000;  // 检测间隔(毫秒)，默认 600 秒
+const MAX_PROCESSES = 20;           // 触发清理的进程阈值
+```
+
+### ⚠️ 注意事项
+- **系统限制**: 此脚本仅适用于 Linux 系统
+- **谨慎使用**: 浏览器进程优化工具需谨慎使用,避免误杀重要进程
+
+### 🛠️ 技术栈
+- Node.js child_process (进程管理)
 
 </details>
 
-## 📦 安装说明
+---
+
+## 📦 通用安装说明
 
 ### 前置要求
-
 - [Yunzai Bot](https://github.com/yoimiya-kokomi/Miao-Yunzai) 或兼容框架
 - Node.js >= 16.x
-- Puppeteer(用于图片渲染)
-- Git(用于自动下载图标资源)
-
-### 批量安装（可选）
-
-如果需要一次性安装所有插件，可以使用以下脚本：
-
-```bash
-# 进入 Yunzai 插件目录
-cd Yunzai-Bot/plugins/example
-
-# 批量下载所有插件
-git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/Help_Lite.js ./Help_Lite.js
-git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/bot_auth.js ./bot_auth.js
-git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/反馈_发邮件喷v1.1.js ./反馈_发邮件喷v1.1.js
-git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/claw_hermes.js ./claw_hermes.js
-git clone https://raw.githubusercontent.com/T060925ZX/JiaoziJs/refs/heads/main/[Linux]浏览器进程优化.js ./[Linux]浏览器进程优化.js
-```
-
-**提示:** 你也可以在上方的各个插件介绍中单独下载安装需要的插件。
 
 ### 安装依赖
-
 ```bash
 npm install puppeteer nodemailer yaml node-fetch
 ```
 
-### 配置插件
-
-**Help_Lite.js 配置:**
-- 首次运行会自动生成 `resources/help-plugin/config.yaml`
-- 编辑配置文件自定义标题、主题、背景等
-
-**反馈插件配置:**
-- 编辑 `反馈_发邮件喷v1.1.js` 中的 `CONFIG` 对象
-- 配置 SMTP 服务器信息和目标邮箱
-
-### 重启 Yunzai Bot
-
+### 重启 Bot
 ```bash
 # 重启 Bot 使插件生效
 ```
 
-## ⚙️ 配置说明
-
-### Help_Lite 配置示例
-
-```yaml
-# resources/help-plugin/config.yaml
-main_title: 'YUNZAI BOT'          # 主标题
-sub_title: 'COMMAND MENU'         # 副标题
-theme: 'auto'                     # 主题: auto/dark/light
-device_scale_factor: 1.2          # 设备缩放比例
-default_hitokoto: ''              # 默认一言(留空则从 API 获取)
-background_image_url: ''          # 背景图片 URL
-```
-
-### 反馈插件配置
-
-```javascript
-const CONFIG = {
-  enable_email: true,              // 是否启用邮件功能
-  smtp_host: 'smtp.qq.com',        // SMTP 服务器
-  smtp_port: 465,                  // SMTP 端口
-  smtp_secure: true,               // 是否使用 SSL
-  smtp_user: 'your-email@qq.com',  // 发件人邮箱
-  smtp_pass: 'your-app-password',  // 邮箱授权码
-  target_email: 'target@qq.com',   // 接收反馈的邮箱
-  subject_prefix: '【机器人反馈记录】' // 邮件标题前缀
-};
-```
-
-### 授权管理配置
-
-```javascript
-const MASTER_BOT = '2660750139'  // 负责授权的机器人 QQ 号
-```
-
-### OpenClaw/Hermes 配置
-
-```javascript
-const ALLOWED_USERS = [1602833550]  // 允许使用 AI 功能的用户 ID 列表
-```
-
-## 📁 项目结构
-
-```
-JiaoziJs/
-├── Help_Lite.js                    # 帮助菜单插件
-├── bot_auth.js                     # 授权管理插件
-├── 反馈_发邮件喷v1.1.js            # 反馈记录插件
-├── claw_hermes.js                  # OpenClaw & Hermes 控制
-├── [Linux]浏览器进程优化.js        # Linux 浏览器进程监控
-└── README.md                       # 项目说明文档
-```
-
-## 🛠️ 技术栈
-
-- **运行时**: Node.js (ES Modules)
-- **Bot 框架**: Yunzai Bot Plugin System
-- **图片渲染**: Puppeteer
-- **邮件服务**: Nodemailer
-- **数据处理**: YAML, JSON
-- **网络请求**: node-fetch
-
-## 📝 使用说明
-
-### 帮助菜单自定义
-
-1. 访问 https://help.jiaozi.live/ 进行可视化编辑
-2. 编辑完成后导出配置
-3. 将配置保存到 `resources/help-plugin/help.yaml`
-4. 发送 `#刷新帮助` 应用更改
-
-### 授权管理流程
-
-```
-管理员在主机器人上执行:
-#授权123456789:30     → 授权群聊 123456789 30天
-#授权本群30           → 授权当前群聊 30天
-
-用户查询授权状态:
-#查询授权             → 查看当前群聊/用户的授权信息
-```
-
-### 反馈系统使用
-
-```
-用户提交反馈:
-#反馈 这个功能有问题    → 提交反馈并发送邮件给管理员
-
-管理员查看反馈:
-#查看反馈             → 生成反馈列表图片
-#清空反馈             → 清除所有反馈记录
-```
-
-## ⚠️ 注意事项
-
-1. **Puppeteer 依赖**: 确保系统已安装 Chromium/Chrome 浏览器
-2. **Linux 环境**: `[Linux]浏览器进程优化.js` 仅适用于 Linux 系统
-3. **邮件配置**: 使用 QQ 邮箱需开启 SMTP 并获取授权码
-4. **权限控制**: 部分指令仅限 Master 或白名单用户使用
-5. **网络访问**: Help_Lite 需要访问 GitHub/Gitee 下载图标资源
-6. **进程监控**: 浏览器进程优化工具需谨慎使用,避免误杀重要进程
+---
 
 ## 📄 许可证
 
 本项目采用 MIT 许可证
 
-```
-MIT License
-
 Copyright (c) 2024-2026 Jiaozi
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction...
-```
-
-## 👨‍💻 作者
-
-**Jiaozi**
-- Copyright © 2024-2026
-- All Rights Reserved
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request!
-
-## 📮 联系方式
-
-如有问题或建议,请通过以下方式联系:
-- 提交 GitHub Issue
-- 使用机器人的 `#反馈` 功能
 
 ---
 
 <div align="center">
-  <p>⭐ 如果这个项目对你有帮助,请给个 Star 吧!</p>
   <p>Made with ❤️ by Jiaozi</p>
 </div>
