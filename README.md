@@ -154,5 +154,3 @@ npm install puppeteer nodemailer yaml node-fetch
 \<p\>⭐ 如果喜欢这些插件，请给仓库一个 Star！\</p\>
 \<p\>Made with ❤️ by Jiaozi\</p\>
 \</div\>
-
-```
