@@ -25,7 +25,7 @@
 
 ### 📥 安装方法
 ```bash
-curl -o ./plugins/example/Help_Lite.js [https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/Help_Lite.js](https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/Help_Lite.js)
+curl -o ./plugins/example/Help_Lite.js 'https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/Help_Lite.js'
 ````
 
 ### ⚙️ 使用指令
@@ -47,7 +47,7 @@ curl -o ./plugins/example/Help_Lite.js [https://raw.githubusercontent.com/T06092
 ### 📥 安装方法
 
 ```bash
-curl -o ./plugins/example/bot_auth.js [https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/bot_auth.js](https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/bot_auth.js)
+curl -o ./plugins/example/bot_auth.js 'https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/bot_auth.js'
 ```
 
 ### ⚙️ 使用指令
@@ -69,7 +69,7 @@ curl -o ./plugins/example/bot_auth.js [https://raw.githubusercontent.com/T060925
 ### 📥 安装方法
 
 ```bash
-curl -o ./plugins/example/反馈_发邮件喷v1.1.js [https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/反馈_发邮件喷v1.1.js](https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/反馈_发邮件喷v1.1.js)
+curl -o ./plugins/example/反馈_发邮件喷v1.1.js 'https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/反馈_发邮件喷v1.1.js'
 ```
 
 ### ⚙️ 使用指令
@@ -91,7 +91,7 @@ curl -o ./plugins/example/反馈_发邮件喷v1.1.js [https://raw.githubusercont
 ### 📥 安装方法
 
 ```bash
-curl -o ./plugins/example/claw_hermes.js [https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/claw_hermes.js](https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/claw_hermes.js)
+curl -o ./plugins/example/claw_hermes.js 'https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/claw_hermes.js'
 ```
 
 ### ⚙️ 使用指令
@@ -111,7 +111,7 @@ curl -o ./plugins/example/claw_hermes.js [https://raw.githubusercontent.com/T060
 ### 📥 安装方法
 
 ```bash
-curl -o ./plugins/example/[Linux]浏览器进程优化.js [https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/](https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/)[Linux]浏览器进程优化.js
+curl -o ./plugins/example/[Linux]浏览器进程优化.js 'https://raw.githubusercontent.com/T060925ZX/YunzaiJs/refs/heads/main/[Linux]浏览器进程优化.js'
 ```
 
 \</details\>
